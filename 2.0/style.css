@@ -1,0 +1,5086 @@
+/*=====================================================================================
+	
+	Project: Islamic project
+	Version: 1.0
+	Last change: 17/5/2017
+	Author : KodeForest
+	
+	/**
+	* Table of Contents :
+	* 1.0 - KODE TOP WRAP START
+	* 2.0 - KODE TOP LOGO WRAP START
+	* 3.0 - KODE NAVIGATION WRAP START
+	* 4.0 - KODE BANNER WRAP START
+	* 5.0 - KODE MOSQUES WRAP STRAT
+	* 6.0 - KODE PILLARS WRAP START
+	* 7.0 - KODE SERVICES WRAP START
+	* 8.0 - KODE PRAY WRAP START
+	* 9.0 - KODE GALLERY WRAP START
+	* 10.0 - KODE TEAM WRAP START
+	* 11.0 - KODE CAUSE WRAP START
+	* 12.0 - KODE BLOG WRAP START
+	* 13.0 - KODE CLIENT WRAP START
+	* 14.0 - KODE NEWSLETTER WRAP START
+	* 15.0 - WIDGET WRAP START
+	* 16.0 - WIDGET COPYRIGHT START
+	* 17.0 - HOME PAGE 01 START
+	* 18.0 - KODE TOP2 WRAP START
+	* 19.0 - KODE NAVIGATION WRAP START
+	* 20.0 - KODE BANNER2 WRAP START
+	* 22.0 - KODE MOSQUE2 WRAP START
+	* 23.0 - KODE PILLARS WRAP PILLARS 2 START
+	* 24.0 - KODE BUILDING WRAP START
+	* 25.0 - KODE CLIENT WRAP CLIENT 2 START
+	* 26.0 - KODE GALLERY WRAP START
+	* 27.0 - KODE EVENT WRAP START
+	* 28.0 - WIDGET WRAP WIDGET 02 START
+	* 29.0 - ABOUT US PAGE START
+	* 30.0 - KODE SAB BANNER WRAP START
+	* 31.0 - KODE PHILOSOPHY WRAP START
+	* 32.0 - KODE CLIENT WRAP CLIENT 3 START
+	* 33.0 - BLOG PAGE START
+	* 34.0 - KODE BLOG MADIUM WRAP START
+	* 35.0 - BLOG GRID PAGE START
+	* 36.0 - BLOG DETAIL PAGE START
+	* 37.0 - 404 PAGE START
+	* 38.0 - COMING SOON PAGE START
+	* 39.0 - CONTACT US PAGE START
+	* 40.0 - EVENT PAGE START
+	* 41.0 - EVENT DETAIL PAGE START
+	* 42.0 - PORTFOLIO PAGE START
+	* 43.0 - PROJECT PAGE STARt
+	* 44.0 - PROJECT LIST PAGE START
+	* 45.0 - SERVICE PAGE START
+	* 46.0 - KODE SERVICE SEARCH FEILD START
+	* 47.0 - KODE PRICING WRAP START
+	* 48.0 - SHOP PAGE START
+	* 49.0 - TEAM DETAIL PAGE START
+	* 50.0 - KODE TEAM WRAP START
+	* 51.0 - GALLERY3 WRAP START
+	* 52.0 - PROJECT DETAIL PAGE START
+	* 53.0 - SERVICE DETAIL PAGE START
+	
+	
+	
+	
+	[Color codes]
+
+	Background: #ffffff (white)
+	Content: #999999 (light black)
+	Header h1: #111111 (dark black)
+	Header h2: #111111 (dark black)
+	Footer:  #000000 (dark black)
+
+	a (standard): #999999 (light black)
+	a (visited): #999999 (light black)
+	a (active): #999999 (light black)
+
+	[Typography]
+	  
+	Body copy:  15px/  'Ubuntu', sans-serif;
+	Headers: 'Ubuntu', sans-serif;
+	Input, textarea: 'Ubuntu', sans-serif;
+	Sidebar heading: 'Poppins', sans-serif;
+
+
+==============================================================================================	*/
+
+.wraper{
+	float:left;
+	width:100%;
+}
+.dl-menuwrapper{
+	display:none;
+}
+
+/*
+	=======================================
+		KODE TOP WRAP START
+	=======================================
+*/
+.kode_top_info ul,
+.kode_top_info,
+.kode_top_wrap{
+	float:left;
+	width:100%;
+}
+.kode_top_wrap{
+	padding:7px 0px;
+}
+.kode_top_info {
+    padding: 6px 0 4px;
+}
+.kode_top_info > ul > li{
+	float:left;
+	padding:0px 20px;
+	line-height:15px;
+	border-right:1px solid #cccccc;
+}
+.kode_top_info ul > li:last-child{
+	border-right:none;
+}
+.kode_top_info ul li:first-child{
+	padding-left:0px;
+}
+.kode_top_info ul > li > a{
+	display:inline-block;
+	font-size:14px;
+}
+.kode_top2_icon .dropdown img,
+.kode_top_info ul li ul li a img,
+.kode_top_info ul li button img,
+.kode_top_info ul li a i{
+	margin-right:10px;
+}
+.kode_top_info ul li button{
+	background:none;
+	padding:0px;
+	cursor:pointer;
+	font-size:14px;
+	color:#999;
+}
+.kode_top_info ul li button span{
+	margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+.kode_top_info ul li ul{
+	background-color: #ffffff;
+    border: medium none;
+    box-shadow: 0 0;
+    min-width: 140px;
+    padding:5px 0px;
+	border-bottom:2px solid;
+    top: 28px;
+}
+.kode_top_info ul li  ul li{
+	width:100%;
+	padding:0px 0px;
+}
+.kode_top_info ul li ul li a{
+	display:block;
+	padding:8px 20px;
+}
+.kode_top2_icon .dropdown img,
+.kode_top_info ul li ul li a img{
+	border-radius:100%;
+}
+.kode_top_right_text{
+	float:right;
+}
+.top_icon_fig{
+	padding-right:30px;
+}
+.kode_top_right_text .comment-form,
+.top_icon_fig li,
+.top_icon_fig{
+	float:left;
+}
+.top_icon_fig li{
+	margin-right:14px;
+}
+.kode_top_right_text .kf_commet_field{
+	margin-bottom:0px;
+}
+.kode_top_right_text .comment-form{
+	float:left;
+	padding-left:30px;
+	border-left:1px solid #ccc;
+}
+.kode_top_right_text .kf_commet_field{
+	width:160px;
+	position:relative;
+}
+.kode_top_right_text .kf_commet_field input{
+	padding:0px 0px;
+	height:auto;
+	font-size:12px;
+	border:none;
+	border-bottom:1px solid #cccccc;
+	box-shadow:0px 0px;
+	padding:0px 30px 2px 5px;
+}
+.kode_top_right_text .kf_commet_field input:focus{
+	border:1px solid;
+}
+.kode_top_right_text .kf_commet_field button{
+	position:absolute;
+	top:0px;
+	right:5px;
+	background:none;
+	padding:0px 0px;
+	font-size:16px;
+	cursor:pointer;
+}
+/*
+	=======================================
+		KODE TOP WRAP END
+	=======================================
+*/
+
+/*
+	=======================================
+		KODE TOP LOGO WRAP START
+	=======================================
+*/
+.top_time_circle ul,
+.kode_top_logo_wrap{
+	float:left;
+	width:100%;
+}
+.kode_top_logo_wrap{
+	background-image:url("images/top_bg.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:25px 0px;
+}
+.top_logo{
+	float: left;
+    position: relative;
+    width: auto;
+}
+.top_time_circle{
+	float:right;
+	width:auto;
+	position: relative;
+	padding:2px 0px;
+}
+.top_time_circle ul li{
+	height:76px;
+	width:76px;
+	text-align:center;
+	float:left;
+	border-radius:100%;
+	border:1px solid #fff;
+	padding:18px 0px;
+	margin-left:20px;
+}
+.top_time_circle ul li:hover{
+    transform:scale(1.1);
+	 -moz-transform:scale(1.1);
+	  -webkit-transform:scale(1.1);
+}
+.top_time_circle ul li span,
+.top_time_circle ul li a{
+	display:block;
+	font-size:14px;
+	font-weight:500;
+	line-height:normal;
+}
+.top_time_circle ul li a{
+	margin-bottom:3px;
+}
+/*
+	=======================================
+		KODE TOP LOGO WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE NAVIGATION WRAP START
+	=======================================
+*/
+.navigation ul, 
+.navigation,
+.kode_navigation_wrap{
+	float:left;
+	width:100%;
+}
+.navigation ul{
+	text-align:center;
+} 
+.navigation > ul > li{
+	display:inline-block;
+	margin-left:5px;
+	position:relative;
+}
+.navigation > ul > li > a{
+	color: #333333;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 20px 17px;
+	position:relative;
+	z-index:999;
+}
+.navigation ul li ul li a:before,
+.navigation > ul > li > a:before{
+	position:absolute;
+	content:"";
+	top:100px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:-1;
+}
+.navigation > ul > li > a:hover:before{
+	top:0px;
+}
+/*drop down style*/
+/*navigation dropdown start*/
+.navigation > ul > li  > ul{
+	position:absolute;
+	top:80px;
+	width:200px;
+	visibility:hidden;
+	opacity:0;
+	z-index:999;
+	border-bottom:5px solid;
+	border-top:2px solid;
+	background:#fff;
+}
+.navigation > ul > li:hover > ul{
+	opacity:1;
+	visibility:visible;
+	top:60px;
+}
+.navigation > ul > li > ul > li{
+	width:100%;
+}
+.navigation > ul > li > ul  > li a{
+	display:block;
+	padding:9px 20px;
+	text-align:left;
+	position:relative;
+	z-index:999;
+	font-weight:300;
+}
+.navigation > ul > li > ul > li a:before{
+    right:100%;
+    top: 0;
+	opacity:0;
+}
+.navigation  > ul > li > ul > li a:hover:before{
+	right:0;
+	opacity:1;
+}
+.kode_navi_btn{
+	float:right;
+	width:auto;
+	padding:11px 0px 10px;
+}
+/*navigation dropdown end*/
+/*
+	=======================================
+		KODE NAVIGATION WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE BANNER WRAP START
+	=======================================
+*/
+.koed_banner_btn,
+.kode_banner_wrap{
+	float:left;
+	width:100%;
+}
+.kode_banner_wrap.them_overlay,
+.kode_banner_wrap{
+	position:relative;
+}
+.kode_banner_text{
+	left: 50%;
+    margin-left: -260px;
+    margin-top: -180px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 490px;
+	z-index:10;
+}
+.large_text{
+	font-size:60px;
+	font-weight:bold;
+	line-height:normal;
+	position:relative;
+	margin-bottom:5px;
+}
+.large_text:before,
+.large_text:after{
+	bottom: 0;
+    content: "";
+    font-family: fontawesome;
+    font-size: 15px;
+    left: 52px;
+    position: absolute;
+    top: 10px;
+}
+.large_text:before{
+	content: "\f10e";
+	left:auto;
+	right: 52px;
+}
+.mediume_text{
+	font-size:24px;
+	margin-bottom:20px;
+}
+.mediume_text span{
+	display:inline-block;
+	font-weight:bold;
+	font-size:28px;
+}
+.small_text{
+	margin-bottom:24px;
+}
+/*pager slider start*/
+.kode_banner_wrap .bx-wrapper{
+	border:none;
+	box-shadow:0px 0px;
+}
+.kode_banner_wrap .bx-wrapper{
+	margin-bottom:0px;
+}
+.pager_link{
+	bottom: 30px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.pager_link img{
+	float:none;
+	display:inline-block;
+	text-align:center;
+	margin:auto;
+	width:123px;
+	height:75px;
+}
+.pager_link a{
+	margin-right:16px;
+	display:inline-block;
+}
+.pager_link a.active{
+    display: inline-block;
+    outline: 4px solid #d2973b;
+    outline-offset: -4px;
+}
+/*
+	=======================================
+		KODE BANNER WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE MOSQUES WRAP STRAT
+	=======================================
+*/
+.kode_counter_mosque,
+.kode_mosque_student,
+.kode_mosque_item,
+.kode_mosque_text,
+.kode_mosque_row,
+.kode_mosques_wrap{
+	float:left;
+	width:100%;
+}
+.kode_mosques_wrap{
+	padding:80px 0;
+}
+.kode_mosque_des{
+	width:49%;
+	float:left;
+	margin-right:10px;
+}
+.kode_mosque_des:last-child{
+	margin-right:0px;
+}
+.kode_mosque_fig figure{
+	width:auto;
+}
+.kode_mosque_fig  .them_overlay:before{
+	opacity:0;
+}
+.kode_mosque_fig:hover  .them_overlay:before{
+	opacity:0.3;
+	z-index:9;
+}
+.kode_mosque_fig figure:first-child{
+	margin-bottom:11px;
+}
+.kode_mosque_fig figcaption{
+	position:absolute;
+	bottom:-44px;
+	left:0px;
+	right:0px;
+	z-index:10;
+}
+.kode_mosque_fig:hover figcaption{
+	bottom:0px;
+}
+.kode_mosque_fig figcaption h6{
+	padding:15px 15px 12px;
+	font-weight:500;
+}
+/* SECTION HEADING START */
+.kode_mosque_text  .section_hdg{
+	margin-bottom:18px;
+}
+.section_hdg.hdg_4 {
+    margin-bottom: 18px;
+}
+.section_hdg{
+	float:left;
+	width:100%;
+	margin-bottom:32px;
+} 
+.section_hdg img{
+	margin-bottom:6px;
+	display:block;
+}
+.section_hdg h3{
+	display:inline-block;
+	margin-right:16px;
+}
+.section_hdg span{
+	font-size:25px;
+	position:relative;
+}
+.section_hdg span:after,
+.section_hdg span:before{
+	border-bottom: 1px solid #acacac;
+    bottom: 12px;
+    content: "";
+    left: auto;
+    position: absolute;
+    right: -56px;
+    top: 0;
+    width: 38px;
+}
+.section_hdg span:after{
+	border-top: 1px solid #acacac;
+	border-bottom:none;
+	top:16px;
+	right:auto;
+	left:-56px;
+	display:none;
+}
+/* SECTION HEADING END */
+
+/* SECTION HEADING HDG 2 START */
+.section_hdg.hdg_2{
+	text-align:center;
+	position:relative;
+	margin-bottom:41px;
+	z-index:99;
+}
+.section_hdg.hdg_2 img{
+	display:inline-block;
+}
+.section_hdg.hdg_2 h3{
+	display:block;
+}
+.section_hdg.hdg_2 span:after{
+	display:block;
+}
+/* SECTION HEADING HDG 2 START */
+
+
+/* SECTION HEADING HDG 2 START */
+.section_hdg.hdg_2.hdg_3 {
+    margin-bottom: 34px;
+}
+.section_hdg.hdg_2.hdg_3 h3{
+	color:#333;
+}
+/* SECTION HEADING HDG 2 END */
+.kode_mosque_item p{
+	margin-bottom:37px;
+}
+.kode_counter_mosque{
+	margin-bottom:36px;
+}
+.kode_counter_mosque li{
+	float:left;
+	text-align:center;
+	width:25%;
+}
+.kode_counter_mosque li span{
+	display:inline-block;
+	height:72px;
+	width:72px;
+	text-align:center;
+	line-height:66px;
+	border-radius:100%;
+	border:2px solid #e7e7e7;
+	font-size:30px;
+	font-weight:500;
+	margin-bottom:16px;
+}
+.kode_mosque_item .koed_banner_btn .medium_btn,
+.kode_counter_mosque li h6 a{
+	color:#999999;
+}
+/* kode mosque row mosque start*/
+.kode_mosque_row.mosque {
+    margin: 17px 0 0;
+}
+.kode_mosque_row.mosque figure a{
+	position:absolute;
+	top:50%;
+	left:0px;
+	right:0px;
+	text-align:center;
+	font-size:40px;
+	margin-top:-20px;
+	z-index:10;
+}
+.kode_mosque_row.mosque .them_overlay:before{
+	z-index:9;
+}
+/*
+	=======================================
+		KODE MOSQUES WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE PILLARS WRAP START
+	=======================================
+*/
+.kode_pillars_item,
+.kode_pillars_wrap{
+	float:left;
+	width:100%;
+}
+.kode_pillars_wrap .nav-tabs{
+	border-bottom:none;
+}
+.kode_pillars_wrap{
+	background-image:url("images/piller.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:80px 0px 0px 0px;
+}
+.kode_pillars_wrap.them_overlay:before {
+    background-color: #666666;
+    opacity: 0.80;
+}
+.kode_pillars_row{
+	width:950px;
+	text-align:center;
+	position:relative;
+	margin:auto;
+}
+.kode_pillars_text{
+	background-color: #ffffff;
+    border-radius: 380px 390px 0 0;
+    display: inline-block;
+    margin: auto;
+    padding: 22px 66px 24px;
+    text-align: center;
+    width: 445px;
+	position:relative;
+	z-index:999;
+}
+.kode_pillars_text:before{
+	border: 1px dotted #fff;
+	bottom: 0;
+    content: "";
+    left: -193px;
+    position: absolute;
+    right: -195px;
+    top: -162px;
+	border-radius: 380px 390px 0 0;
+	border-bottom:none;
+	z-index:-1;
+}
+.kode_pillars_text span{
+	font-size:40px;
+	position:relative;
+	margin-bottom:22px;
+	display:inline-block;
+	border-bottom:2px solid #a7a7a7;
+	padding-bottom:8px;
+}
+.kode_pillars_text h4{
+	margin-bottom:13px;
+}
+.kode_pillars_text p{
+	margin-bottom:0px;
+}
+.kode_pillars_item{
+	margin-bottom:85px;
+}
+.kode_pillars_item li{
+	display:inline-block;
+}
+.kode_pillars_item li a{
+	height:126px;
+	width:126px;
+	text-align:center;
+	border-radius:100%;
+	background-color:#fff;
+	display:inline-block;
+	padding:28px 0;
+}
+.kode_pillars_item li a:before {
+    border: 1px dotted  #ffffff;
+    border-radius: 100%;
+    bottom: -7px;
+    content: "";
+    left: -7px;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+}
+.kode_pillars_item li a span{
+	font-size:30px;
+	display:inline-block;
+	margin-bottom:10px;
+}
+.center {
+    position: relative;
+	z-index:9999;
+}
+.center:after{
+	border-right: 1px solid #ffffff;
+    bottom: -85px;
+    content: "";
+    left: -70px;
+    position: absolute;
+    right: 60px;
+    top: 126px;
+}
+.right_bottom,
+.left_bottom {
+    bottom: 50px;
+    left: 0;
+    position: absolute;
+	z-index:9999;
+}
+.right_center,
+.left_center {
+	bottom: 232px;
+    left: 154px;
+    position: absolute;
+	z-index:9999;
+}
+.right_bottom{
+	left:auto;
+	right:0px;
+}
+.right_center{
+	right: 160px;
+	left:auto;
+}
+.right_bottom:after,
+.left_bottom:after {
+    border-right: 1px solid #ffffff;
+    bottom: -22px;
+    content: "";
+    left: auto;
+    position: absolute;
+    right: -82px;
+    top: 0;
+    transform: rotate(-66deg) translate(-52px);
+}
+.right_bottom:after{
+	border-left: 1px solid #ffffff;
+	border-right:none;
+	right:auto;
+	left:-82px;
+	transform: rotate(66deg) translate(52px);
+}
+.right_center:after,
+.left_center:after{
+	border-right: 1px solid #fff;
+    bottom:-20px;
+    content: "";
+    left: auto;
+    position: absolute;
+    right: -58px;
+    top: 38px;
+    transform: rotate(-54deg) translate(-61px);
+}
+.right_center:after{
+	border-left: 1px solid #fff;
+	border-right:none;
+	right:auto;
+	left:-58px;
+	 transform: rotate(54deg) translate(61px);
+}
+/*
+	=======================================
+		KODE PILLARS WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE SERVICES WRAP START
+	=======================================
+*/
+.service_btn,
+.kode_service_text,
+.kode_service_des,
+.kode_services_wrap{
+	float:left;
+	width:100%;
+}
+.kode_services_wrap{
+	padding:80px 0px;
+}
+.kode_service_des{
+	margin-bottom:30px;
+}
+.kode_service_des:hover{
+	box-shadow:0px 0px 7px 0px;
+	margin-bottom:30px;
+}
+.kode_service_des:hover figure img{
+	opacity:0.8;
+}
+.kode_service_text{
+	padding:42px 30px 24px;
+	position:relative;
+}
+.kode_service_text span{
+	height:80px;
+	width:80px;
+	text-align:center;
+	line-height:80px;
+	margin:auto;
+	border-radius:100%;
+	font-size:42px;
+	background-color:#eeeeee;
+	display:inline-block;
+	position:absolute;
+	top:-50px;
+}
+.kode_service_text h4{
+	margin-bottom:7px;
+}
+.kode_service_text  p{
+	margin-bottom:0px;
+}
+.kode_service_text  p i{
+	margin-right:10px;
+}
+.kode_service_text  .right_arrow{
+	position:absolute;
+	top:50%;
+	right:10px;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:27px;
+	border-radius:100%;
+	border:1px solid #e0e0e0;
+	margin-top:-15px;
+	opacity:0;
+}
+.kode_service_des:hover .kode_service_text  .right_arrow{
+	right:30px;
+	opacity:1;
+}
+.service_btn{
+	text-align:center;
+}
+/*
+	=======================================
+		KODE SERVICES WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE PRAY WRAP START
+	=======================================
+*/
+.kode_pray_fig,
+.kode_pray_text,
+.kode_pray_wrap{
+	float:left;
+	width:100%;
+}
+.kode_pray_wrap{
+	background-image:url("images/pattran-bg.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.kode_pray_wrap.them_overlay:before{
+	background-color:#e8e8e8;
+	opacity:0.92;
+}
+.kode_pray_text{
+	padding:96px 0px 100px;
+}
+.kode_pray_text h5,
+.kode_pray_text h2{
+	margin-bottom:9px;
+}
+.kode_pray_text h5{
+	font-weight: 600;
+    margin-bottom: 20px;
+}
+.kode_pray_text  p{
+	color: #333333;
+    font-weight: bolder;
+    margin-bottom: 23px;
+    padding-right: 55px;
+}
+.kode_pray_fig figure{
+	width:auto;
+	margin-top:-35px;
+}
+.kode_pillars_text > figure {
+    bottom: -6px;
+    position: relative;
+}
+.kode_gallery3_wrap.wrap_2{
+	background-color:#f7f7f7;
+	padding:80px 0px;
+}
+.kode_gallery3_wrap.wrap_2 .slick-prev::before, 
+.kode_gallery3_wrap.wrap_2 .slick-next::before{
+	color:#ddd
+}
+.kode_gallery3_wrap.wrap_2{
+	background-color:#f7f7f7;
+	padding:80px 0 75px;
+}
+/*
+	=======================================
+		KODE PRAY WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE GALLERY WRAP START
+	=======================================
+*/
+.kode_gallery_fig.fig_1,
+.kode_gallery_des,
+.kode_gallery_row,
+.kode_gallery_wrap{
+	float:left;
+	width:100%;
+}
+.kode_gallery_wrap{
+	padding:80px 0px;
+	background-color:#f7f7f7;
+}
+.kode_gallery_des{
+	margin-bottom:30px;
+}
+.kode_gallery_fig{
+	float:left;
+	width:44%;
+	margin-right:34px;
+}
+.kode_gallery_fig:nth-child(2){
+	margin-right:0px;
+}
+.kode_gallery_fig.fig_1.margin{
+	margin-bottom:30px;
+}
+.kode_gallery_fig a{
+	position:absolute;
+	top:50%;
+	left:0px;
+	right:0px;
+	text-align:center;
+	height:50px;
+	width:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:20px;
+	background-color:#fff;
+	border-radius:100%;
+	display:inline-block;
+	margin:-40px auto;
+	opacity:0;
+	z-index:10;
+}
+.kode_gallery_fig:hover a{
+	margin:-25px auto;
+	opacity:1;
+}
+.kode_gallery_fig a:hover{
+	background-color:#000;
+}
+.kode_gallery_fig .them_overlay:before{
+	opacity:0;
+	top:100%;
+	z-index:9;
+} 
+.kode_gallery_fig:hover .them_overlay:before{
+	opacity:0.78;
+	top:0;
+}
+.service_btn.view{
+	margin-top:10px;
+}
+/*
+	=======================================
+		KODE GALLERY WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE TEAM WRAP START
+	=======================================
+*/
+.kode_social_icon,
+.kode_tem_fig,
+.kode_team_wrap{
+	float:left;
+	width:100%;
+}
+.kode_team_wrap{
+	padding:80px 0px;
+}
+.kode_tem_fig {
+    padding: 0 15px;
+}
+.kode_tem_fig figcaption{
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:-53px;
+	background-color:#444444;
+	padding:17px 0px 20px;
+	text-align:center;
+}
+.kode_tem_fig:hover figcaption{
+	bottom:0px;
+}
+.kode_tem_fig figcaption  p{
+	margin-bottom:14px;
+}
+.kode_social_icon li{
+	display:inline-block;
+	margin-right:11px;
+}
+.kode_social_icon li a{
+	display:inline-block;
+	height:33px;
+	width:33px;
+	text-align:center;
+	line-height:33px;
+	border-radius:100%;
+	border:1px solid #f4f4f4;
+}
+/* SILCK SLIDER START*/
+.kode_team_wrap .slick-prev,
+.kode_team_wrap .slick-next {
+    background: #333333;
+    display: block;
+    height: 46px;
+    position: absolute;
+    top: 50%;
+    width: 46px;
+    z-index: 1;
+}
+.kode_team_wrap .slick-prev{
+	left:-50px;
+}
+.kode_team_wrap .slick-next{
+	right:-50px;
+}
+.kode_team_wrap .slick-prev:before,
+.kode_team_wrap .slick-next:before{
+	line-height:42px;
+ }
+ /*
+	=======================================
+		KODE TEAM WRAP END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE CAUSE WRAP START
+	=======================================
+*/
+.kode_cause_canvas,
+.kode_payment_list,
+.checkbox_radio,
+.radio_points,
+.kode_comment,
+.kode_donation_row,
+.kode_doantion_amount,
+.kode_donation_element,
+.kode_cause_text,
+.kode_cause_wrap{
+	float:left;
+	width:100%;
+}
+.kode_cause_wrap{
+	background-image: url("images/cause-bg.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+	position:relative;
+	background-size:51% ;
+	z-index:99;
+}
+.kode_cause_wrap .section_hdg.hdg_2{
+	margin-bottom:18px;
+}
+.kode_cause_wrap.them_overlay:before{
+	background-color:#333;
+	opacity:0.9;
+	width:50%;
+}
+.kode_cause_wrap:after{
+    bottom: 0;
+    content: "";
+    left: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+	z-index:-1;
+	background: -webkit-linear-gradient(#f7f2e9, #f7f7f7);
+    background: -o-linear-gradient(#f7f2e9, #f7f7f7);
+    background: -moz-linear-gradient(#f7f2e9, #f7f7f7); 
+    background: linear-gradient(#f7f2e9, #f7f7f7);
+}
+.kode_donate_des,
+.kode_cause_des{
+	float:left;
+	width:50%;
+}
+.kode_cause_des{
+	text-align:center;
+	padding:90px 100px;
+}
+.kode_cause_text{
+	position:relative;
+}
+/* canvas style start*/
+.kode_cause_text p{
+	margin-bottom:45px;
+}
+.kode_canvas_text,
+.kode_canvas_detail {
+    float: left;
+    width: 50%;
+}
+.kode_canvas_detail {
+	text-align: right;
+	padding-right:50px;
+	border-right:1px solid #e8e8e8; 
+}
+.kode_canvas_detail .position{
+    margin:0px 0px;
+	float:right;
+	text-align:right;
+}
+.kode_canvas_detail .progress-bar div span {
+    background-color: #333333;
+    border-radius: 50%;
+    font-size: 40px;
+    height: 120px;
+    left: 6px;
+    line-height: 120px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+	font-weight:lighter;
+    width: 120px;
+}
+.kode_canvas_detail .progress-bar div {
+    border-radius: 50%;
+    height: 132px;
+    position: absolute;
+    width: 132px;
+}
+.kode_canvas_detail .progress-bar{
+	height:132px;
+	width:135px;
+}
+.kode_canvas_text{
+	text-align:left;
+	padding-left:50px;
+}
+.kode_canvas_text li{
+	display:inline-block;
+	padding-bottom:15px;
+}
+.kode_canvas_text li:first-child{
+	border-bottom:1px solid #f1f1f1;
+	margin-bottom:15px;
+}
+.kode_canvas_text h5{
+	margin-bottom:6px;
+}
+.kode_canvas_text h4{
+	font-weight:bold;
+}
+.kode_donate_des {
+    padding: 27px 200px 33px;
+}
+.kode_doantion_amount{
+	border-bottom:1px solid #dcdcdc;
+	padding-bottom:30px;
+	margin-bottom:28px;
+}
+.kode_donation_row h4,
+.kode_doantion_amount h4{
+	margin-bottom:15px;
+}
+.kode_amount_list {
+    float: left;
+}
+.kode_amount_list span{
+	display:inline-block;
+	color:#333333;
+	width:75px;
+	height:62px;
+	line-height:60px;
+	text-align:center;
+	border:1px solid #dfdfdf;
+	margin-right:15px;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:20px;
+}
+.kode_doantion_amount .kf_commet_field{
+	float:left;
+	width:auto;
+	margin-left:14px;
+}
+.kode_doantion_amount .kf_commet_field input{
+	float:left;
+	width:180px;
+	border:1px solid #dfdfdf;
+	background:none;
+	height:62px;
+	font-size:16px;
+	font-weight:500;
+}
+.kode_donation_item,
+.kf_commet_field{
+	margin-bottom:15px;
+}
+.kf_commet_field input{
+	background:none;
+	box-shadow:0px 0px;
+}
+.kode_donation_row .chosen-container-single .chosen-single span,
+.kode_donation_row  .chosen-container-single .chosen-single{
+	height:44px;
+	background:none;
+}
+.kode_donation_row .chosen-container-single .chosen-single span{
+	padding:7px 15px;
+	font-size:15px;
+	text-align:left;
+}
+.kode_donation_row .chosen-container-single .chosen-single{
+	padding:0px 0px;
+	border-color:#dfdfdf;
+	border-radius:0px;
+	box-shadow:0px 0px;
+}
+.kode_donation_row .chosen-container-single .chosen-single div b:before{
+	font-size:16px;
+	color:#bdbdbd;
+}
+.kode_donation_row .chosen-container-single .chosen-single div{
+	background:none;
+}
+.kode_donation_row .chosen-container .chosen-drop{
+	z-index:99;
+}
+/*radio button start*/
+.kode_payment_list h5{
+	margin-bottom:15px;
+}
+.radio_points{
+	margin-bottom:30px;
+}
+.radio_points li{
+	float: left;
+	line-height: normal;
+	margin-right:30px;
+}
+.checkbox_radio {
+    position: relative;
+}
+.checkbox_radio input{
+	display: none;
+}
+.checkbox_radio span{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left: 0px;
+	top:3px;
+	bottom:0px;
+	border:1px solid #afafaf;
+	border-radius: 100%;
+	background-color:#dedede;
+}
+.checkbox_radio span:before{
+	position: absolute;
+	content: "";
+	left: 2px;
+	right: 2px;
+	top:2px;
+	bottom:2px;
+	background: transparent;
+	border-radius: 100%;
+}
+.checkbox_radio input[type="radio"]:checked ~ span:before{
+	background-color:#666666;
+}
+.checkbox_radio label{
+	float:left;
+	width: 100%;
+	padding-left: 20px;
+	z-index: 10;
+	position: relative;
+	font-size: 14px;
+	color:#666666;
+	margin-bottom: 0px;
+	cursor: pointer;
+	margin-left:6px;
+}
+.kode_payment_list .form-submit{
+	margin-bottom:0px;
+}
+
+ /*
+	=======================================
+		KODE CAUSE WRAP END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE BLOG WRAP START
+	=======================================
+*/
+.kode_calender_detail li,
+.kode_calender_list,
+.kode_calender_detail,
+.koed_event_timer,
+.kode_event_des,
+.kode_event_row,
+.kode_meta,
+.kode_blog_list > ul > li,
+.kode_blog_fig,
+.kode_blog_list ul,
+.kode_blog_list,
+.kode_blog_row,
+.kode_blog_wrap{
+	float:left;
+	width:100%;
+}
+.kode_blog_wrap{
+	padding:80px 0px;
+}
+.kode_blog_wrap .section_hdg{
+	margin-bottom:33px;
+}
+.kode_blog_list > ul > li{
+	margin-bottom:30px;
+}
+.kode_blog_list > ul > li:last-child{
+	margin-bottom:0px;
+}
+.kode_blog_fig figure{
+	float:left;
+	width:auto;
+}
+.kode_blog_fig  .them_overlay:before{
+	opacity:0;
+	top:100%;
+}
+.kode_blog_fig:hover  .them_overlay:before{
+	opacity:0.65;
+	top:0px;
+	z-index:9;
+}
+.kode_blog_text {
+    overflow: hidden;
+	padding:25px 28px 28px 30px;
+}
+.kode_blog_fig:hover  .kode_blog_text{
+	background-color:#f7f7f7;
+}
+.kode_meta {
+	margin-bottom:13px;
+}
+.kode_meta.meta_2 li:last-child,
+.kode_meta li{
+	float:left;
+}
+.kode_meta li:last-child{
+	float:right;
+}
+.kode_meta li a{
+	display:inline-block;
+	color:#666666;
+}
+.kode_meta li a i{
+	margin-right:14px;
+}
+.kode_meta.meta_2{
+	margin-bottom:0px;
+}
+.kode_meta.meta_2 a i{
+	color:#b0b0b0;
+}
+.kode_meta.meta_2 li{
+	float:left;
+	padding:0px 15px;
+	line-height:normal;
+	border-right:1px solid #b0b0b0;
+}
+.kode_meta.meta_2 li:last-child{
+	border-right:none;
+}
+.kode_meta.meta_2 li:first-child{
+	padding-left:0px;
+}
+.kode_blog_text h5{
+	margin-bottom:14px;
+}
+.kode_blog_des figure .expand_btn,
+.kode_blog_fig .plus_icon{
+	background-color: #ffffff;
+    border-radius: 100%;
+    bottom: 0;
+    font-size: 18px;
+    height: 40px;
+    left: 0;
+    line-height: 40px;
+    margin: -40px auto auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+	opacity:0;
+	z-index:10;
+}
+.kode_blog_fig .plus_icon:hover{
+	background-color:#000;
+}
+.kode_blog_des:hover .expand_btn,
+.kode_blog_fig:hover .plus_icon{
+	margin: -20px auto auto;
+	opacity:1;
+}
+/* kode event row start */
+.koed_event_timer .them_overlay:before{
+	z-index:9;
+}
+.koed_event_timer figcaption{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	padding:25px 30px;
+	z-index:10;
+}
+.koed_event_timer figcaption h5{
+	margin-bottom:16px;
+}
+.koed_event_timer figcaption ul li{
+	float:left;
+	margin-right:42px;
+}
+.koed_event_timer figcaption ul li span{
+	font-size:36px;
+}
+.koed_event_timer figcaption ul li  p{
+	margin-bottom:0px;
+}
+.kode_calender_detail{
+	padding:10px 30px;
+	background-color:#f7f7f7;
+}
+.kode_calender_detail li{
+	padding:20px 0px;
+	border-bottom:1px solid #cbcbcb;
+}
+.kode_calender_detail li:last-child{
+	border-bottom:none;
+}
+.kode_calender_list > span{
+	display:inline-block;
+	text-transform:uppercase;
+	width:65px;
+	height:70px;
+	text-align:center;
+	padding:10px;
+	background-color:#333333;
+	font-size:24px;
+	font-weight:400;
+	float:left;
+	border-radius:2px;
+}
+.kode_calender_list > span i{
+	font-size:16px;
+	font-style:normal;
+}
+.kode_event_text{
+	overflow:hidden;
+	padding:1px 0px 0px 10px;
+}
+.kode_event_text h6{
+    line-height: 22px;
+    margin-bottom: 6px;
+    margin-top: -5px;
+}
+.kode_event_text p{
+	margin-bottom:0px;
+}
+ /*
+	=======================================
+		KODE BLOG WRAP END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE CLIENT WRAP START
+	=======================================
+*/
+.kode_product_rating,
+.kode_product_text,
+.kode_product_list,
+.kode_client_text,
+.kode_client_wrap{
+	float:left;
+	width:100%;
+}
+.kode_client_wrap {
+	background-color:#f7f7f7;
+	padding:80px 0px 50px;
+}
+.kode_client_text{
+	text-align:center;
+	padding:25px 25px;
+	position:relative;
+	margin-bottom:80px;
+}
+.kode_client_text:hover{
+	background-color:#ffffff;
+}
+.kode_client_text p{
+	position:relative;
+	margin-bottom:10px;
+}
+.kode_client_text p:before,
+.kode_client_text p:after{
+	position:absolute;
+	content:"\f10d";
+	top:-4px;
+	left:3px;
+	bottom:0px;
+	font-size:12px;
+	font-family:fontawesome;
+	color:#b7b7b7;
+}
+.kode_client_text p:before{
+	left:auto;
+	right:50px;
+	top:auto;
+	bottom:-5px;
+	content:"\f10e";
+}
+.kode_client_text h6{
+	text-transform:uppercase;
+	margin-bottom:26px;
+}
+.kode_client_text figure{
+	width:auto;
+	display:inline-block;
+	border-radius:100%;
+	float:none;
+	position:absolute;
+	left:0px;
+	right:0px;
+}
+.kode_client_text:hover figure{
+	transform:scale(0.2);
+	-moz-transform:scale(0.2);
+	-webkit-transform:scale(0.2);
+}
+.kode_client_text .fig_hover{
+	transform:scale(1.5);
+	-moz-transform:scale(1.5);
+	-webkit-transform:scale(1.5);
+	opacity:0;
+}
+.kode_client_text:hover .fig_hover{
+	transform:scale(1);
+	-moz-transform:scale(1);
+	-webkit-transform:scale(1);
+	opacity:1;
+}
+.kode_client_text figure img {
+    border-radius: 100%;
+    float: none;
+    width: auto;
+	margin:auto;
+}
+.kode_client_text:hover figure img{
+	opacity:0.8;
+}
+/* product style */
+.kode_product_list {
+	background-color:#fff;
+}
+.kode_product_list > h5{
+	padding:15px 30px 13px;
+}
+.kode_product_list figure{
+	border-bottom:1px solid #d2d2d2;
+}
+.kode_product_list h6{
+	position:absolute;
+	top:30px;
+	left:0px;
+	padding:6px 15px 4px;
+	background-color:#333333;
+	border-radius:2px;
+}
+.kode_product_text{
+	padding:17px 30px 13px;
+	border-bottom:1px solid #d2d2d2;
+}
+.kode_product_text h5{
+	margin-bottom:5px;
+}
+.kode_product_text span:last-child{
+	font-weight:500;
+	margin-left:10px;
+}
+.kode_product_rating{
+	padding:11px 30px 9px;
+}
+.product_icon li,
+.rating_star li,
+.rating_star{
+	float:left;
+	width:auto;
+}
+.rating_star li a{
+	display:inline-block;
+	padding:0px 2px;
+	color:#fcc73d;
+}
+.kode_product_list .slick-prev:hover:before, 
+.kode_product_list .slick-next:hover:before,
+.rating_star li a:hover{
+	color:#000;
+}
+.product_icon{
+	float:right;
+	width:auto;
+}
+.product_icon li{
+	margin-right:15px;
+}
+.product_icon li a{
+	display:inline-block;
+	color:#333333;
+}
+/* slick slider start */
+.kode_product_list .slick-prev, 
+.kode_product_list .slick-next{
+	top:-25px;
+	background:none;
+	height:20px;
+	right:23px;
+	width:20px;
+}
+.kode_product_list .slick-prev {
+    right: 46px;
+	left:auto;
+}
+.kode_product_list .slick-prev:before, 
+.kode_product_list .slick-next:before{
+	content:"\f105";
+	line-height:20px;
+	font-size:18px;
+}
+.kode_product_list .slick-prev:before{
+	content:"\f104";
+}
+ /*
+	=======================================
+		KODE CLIENT WRAP END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE NEWSLETTER WRAP START
+	=======================================
+*/
+.kode_newsletter_form form,
+.kode_newsletter_des,
+.kode_newsletter_wrap{
+	float:left;
+	width:100%;
+}
+.kode_newsletter_des {
+	padding:17px 0px 13px;
+	border-right:1px solid #a37a39;
+}
+.kode_newsletter_des span{
+	display:inline-block;
+	font-size:50px;
+	color:#ebd0a7;
+	float:left;
+}
+.kode_newsletter_text{
+	overflow:hidden;
+	padding-left:30px;
+}
+.kode_newsletter_text h5{
+	padding-bottom:5px;
+	margin-bottom:10px;
+	position:relative;
+}
+.widget_title:before,
+.kode_newsletter_text h5:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-bottom:1px solid #fff;
+	width:60px;
+}
+.kode_newsletter_text  p{
+	margin-bottom:0px;
+}
+/* kode newsletter form start */
+.kode_newsletter_form{
+	float:right;
+	padding:22px 0 23px;
+}
+.kode_newsletter_form .kf_commet_field{
+	float:left;
+	margin-bottom:0px;
+}
+.kode_newsletter_form .kf_commet_field input{
+	float:left;
+	background:none;
+	width:288px;
+	box-shadow:0px 0px;
+	color:#fff;
+}
+.kode_newsletter_form .kf_commet_field input:focus{
+	box-shadow:0px 0px 3px 0px;
+}
+.kode_newsletter_form .form-submit{
+	margin-left:30px;
+	margin-bottom:0px;
+}
+.kode_newsletter_form .form-submit input{
+	float:left;
+	width:auto;
+	margin-bottom:0px;
+	cursor:pointer;
+	border:none;
+	background-color:#333;
+}
+.widget_event.event_2 .medium_btn:hover,
+.kode_newsletter_form .kf_commet_field .medium_btn:hover{
+	background-color:#fff;
+	color:#000;
+}
+.kode_newsletter_form .form-submit input:hover{
+	box-shadow:0px 0px 1px 1px;
+	
+}
+.kf_commet_field button{
+	margin-left:30px;
+	cursor:pointer;
+}
+ /*
+	=======================================
+		KODE NEWSLETTER WRAP END
+	=======================================
+*/
+
+ /*
+	=======================================
+		WIDGET WRAP START
+	=======================================
+*/
+.widget_social_icon,
+.widget_call_info li, 
+.widget_call_info,
+.widget_logo,
+.widget_wrap{
+	float:left;
+	width:100%;
+}
+.widget_wrap{
+	padding:60px 0px;
+	background-image: url("images/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+	position:relative;
+	background-size:cover ;
+}
+.widget_wrap.them_overlay:before{
+	background-color:#202020;
+	opacity:0.98;
+}
+.widget_logo img{
+	margin-bottom:25px;
+}
+.widget_logo p{
+	margin-bottom:18px;
+}
+.widget_call_info{
+	padding-bottom:25px;
+	border-bottom:1px solid #393535;
+	margin-bottom:30px;
+}
+.widget_call_info li{
+	margin-bottom:7px;
+}
+.widget_call_info li:last-child{
+	margin-bottom:0px;
+}
+.widget_call_info li a{
+	display:inline-block;
+}
+.widget_call_info li a i{
+	margin-right:20px;
+}
+.widget_social_icon li{
+	float:left;
+	margin-right:19px;
+}
+.widget_social_icon li a{
+	display:inline-block;
+	height:42px;
+	width:42px;
+	text-align:center;
+	line-height:42px;
+	border:1px solid #353333;
+	font-size:16px;
+	border-radius:2px;
+}
+/* widget event start */
+.kode_textarea,
+.widget_event{
+	float:left;
+	width:100%;
+}
+.widget_title{
+	margin-bottom:50px;
+	position:relative;
+	padding:15px 0px 6px 0px; 
+}
+.widget_title:before{
+	width:80px;
+}
+.widget_event .kode_calender_detail{
+	background:none;
+	padding:0px 0px;
+}
+.widget_event .kode_calender_detail li{
+	border-color:#454343;
+}
+.widget_event .kode_calender_detail li:first-child{
+	padding-top:0px;
+}
+.widget_event .kode_event_text{
+	padding-left:20px;
+}
+.widget_event .kf_commet_field input{
+	border-color:#454343;
+}
+.kode_textarea{
+	margin-bottom:30px;
+}
+.widget_event .kode_textarea textarea{
+	height:128px;
+	width:100%;
+	background:none;
+	border-color:#454343;
+	padding:15px 15px;
+	resize:none;
+}
+.form-submit {
+    width: auto;
+}
+.comment-form button,
+.widget_event .form-submit .medium_btn{
+	cursor:pointer;
+}
+ /*
+	=======================================
+		WIDGET WRAP END
+	=======================================
+*/
+ /*
+	=======================================
+		WIDGET COPYRIGHT START
+	=======================================
+*/
+.copyright_text,
+.widget_copyright{
+	float:left;
+	width:100%;
+}
+.widget_copyright{
+	background-color:#1d1d1d;
+}
+.copyright_text p{
+	float:left;
+	margin:0px 0px;
+	padding:18px 0;
+}
+.top_btn{
+	float:right;
+	display:inline-block;
+	height:60px;
+	width:60px;
+	text-align:center;
+	line-height:60px;
+	margin:auto;
+	font-size:30px;
+}
+.top_btn:hover{
+	background-color:#fff;
+}
+ /*
+	=======================================
+		WIDGET COPYRIGHT END
+	=======================================
+*/
+
+.widget_event .kode_textarea textarea::-moz-placeholder,
+.widget_event .kf_commet_field input[type="text"]::-moz-placeholder,
+.kode_newsletter_form .kf_commet_field input[type="text"]::-moz-placeholder{
+	color:#fff;
+}
+.kode_search .kf_commet_field input::-webkit-input-placeholder,
+.kode_comments .kode_textarea textarea::-webkit-input-placeholder,
+.kode_comments .kf_commet_field input::-webkit-input-placeholder,
+.widget_event .kode_textarea textarea::-webkit-input-placeholder,
+.widget_event .kf_commet_field input::-webkit-input-placeholder,
+.kode_newsletter_form .kf_commet_field input::-webkit-input-placeholder{
+	color:#fff;
+}
+.kode_search.margin .kf_commet_field input::-webkit-input-placeholder,
+.kode_search.margin .kode_textarea textarea::-webkit-input-placeholder,
+.kode_comments.comment_2 .kf_commet_field input::-webkit-input-placeholder,
+.kode_comments.comment_2 .kode_textarea textarea::-webkit-input-placeholder,
+.kode_comments.margin .kode_textarea textarea::-webkit-input-placeholder,
+.kode_comments.margin .kf_commet_field input::-webkit-input-placeholder{
+	color:#999;
+}
+.kode_comments.margin .form-submit .medium_btn:hover{
+	background-color:#000;
+	color:#fff;
+}
+ /*
+	============================================================================
+					HOME PAGE 01 START
+	============================================================================
+*/
+ /*
+	=======================================
+		KODE TOP2 WRAP START
+	=======================================
+*/
+.kode_top2_row,
+.kode_top2_wrap{
+	float:left;
+	width:100%;
+}
+.kode_top2_wrap{
+	border-top:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+}
+.kode_top2_info{
+	float:left;
+	width:65%;
+}
+.kode_top2_info li{
+	float:left;
+	padding:11px 30px 9px;
+	border-right:1px solid #d9d9d9;
+}
+.kode_top2_info li:first-child{
+	padding-left:0px;
+}
+.kode_top2_info li:last-child{
+	border-right:none;
+}
+.kode_top2_info li span{
+	display:block;
+	text-transform:uppercase;
+	font-size:12px;
+	line-height:normal;
+	margin-bottom:1px;
+}
+.kode_top2_info li span i{
+	margin-right:10px;
+}
+.kode_top2_info li a{
+	display:block;
+	font-size:14px;
+	color:#666666;
+}
+.kode_top2_icon{
+	float: right;
+    text-align: right;
+    width: 35%;
+}
+.kode_top2_icon ul li,
+.kode_top2_icon ul{
+	float:left;
+}
+.kode_top2_icon > ul{
+	border-left:1px solid #d9d9d9;
+}
+.kode_top2_icon > ul > li{
+	padding:20px 20px 16px;
+	border-right:1px solid #d9d9d9;
+}
+.kode_top2_icon > ul > li a{
+	display:inline-block;
+	position:relative;
+	font-size:18px;
+}
+.kode_top2_icon > ul > li  a span{
+	background-color:#ffffff;
+    border-radius:100%;
+	box-shadow: 0 0 7px -3px #000000;
+    font-size:8px;
+    font-weight:bold;
+    height:12px;
+    line-height:12px;
+    position:absolute;
+    right:-7px;
+    text-align:center;
+    top:0;
+    width:12px;
+}
+/* drop down style */
+.kode_top2_icon .dropdown{
+	cursor:pointer;
+}
+.kode_top2_icon .dropdown span{
+	margin-left:4px;
+}
+.kode_top2_icon .dropdown ul{
+	left: -20px;
+    padding: 0;
+    top: 40px;
+    width: 150px;
+	background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+}
+.kode_top2_icon .dropdown ul li{
+	width:100%;
+}
+.kode_top2_icon .dropdown ul li a{
+	padding:6px 15px;
+	display:block;
+}
+/* donate btn start */
+.donate_btn .modal-body,
+.donate_btn .modal-content{
+	float: left;
+    width: 100%;
+}
+.donate_btn {
+    display: inline-block;
+    float: right;
+    padding: 8px 0 9px;
+	cursor:pointer;
+}
+.donate_btn .modal-content{
+	background: -webkit-linear-gradient(#f7f2e9, #f7f7f7);
+    background: -o-linear-gradient(#f7f2e9, #f7f7f7);
+    background: -moz-linear-gradient(#f7f2e9, #f7f7f7); 
+    background: linear-gradient(#f7f2e9, #f7f7f7);
+}
+.donate_btn  .kode_payment_list h5,
+.donate_btn .kode_doantion_amount h4,
+.donate_btn .kode_donation_row h4{
+	text-align:left;
+}
+.donate_btn  .modal-body,
+.donate_btn .kode_donate_des{
+	width:100%;
+	padding:0px 0px;
+}
+.donate_btn .modal-dialog {
+    margin: 60px auto;
+}
+.donate_btn .modal-content{
+	padding:30px 24px;
+}
+.donate_btn .chosen-results li{
+	width:100%;
+	text-align:left;
+}
+.donate_btn .kode_payment_list {
+    padding: 10px 0;
+}
+.donate_btn  button.close {
+    border-radius: 100%;
+    height: 25px;
+    line-height: 20px;
+    opacity: 1;
+    position: absolute;
+    right: -6px;
+    top: -8px;
+    width: 25px;
+    z-index: 9999;
+	background-color:#fff;
+}
+.donate_btn .close > span {
+    position: relative;
+    top: -2px;
+}
+ /*
+	=======================================
+		KODE TOP2 WRAP END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE NAVIGATION WRAP START
+	=======================================
+*/
+.header{
+	float:left;
+	width:100%;
+}
+.header .kode_navigation_wrap{
+	padding:20px 0 18px;
+}
+.header .top_logo{
+	float:left;
+	width:24%;
+}
+.header .navigation{
+	float: left;
+    padding:22px 0 16px;
+    width: 62%;
+}
+.header .navigation > ul{
+	text-align:left;
+}
+.header .navigation > ul > li{
+	margin-left:24px;
+}
+.header .navigation ul > li > a{
+	padding:0px 0px;
+	font-size:14px;
+	font-weight:500;
+}
+.header .navigation ul li a:hover:before,
+.header .navigation ul li a:hover{
+	background:none;
+}
+/* navigation drop down style*/
+.header .navigation ul ul{
+	width:200px;
+	border-top:2px solid ;
+	border-bottom:3px solid ;
+}
+.header .navigation ul ul li a{
+	padding:8px 15px;
+	text-transform:uppercase;
+}
+.header .navigation ul li:hover > ul{
+	top:58px;
+}
+.kode_navi_icon {
+    float: right;
+    padding:17px 0 13px;
+}
+.kode_navi_icon  li{
+	float:left;
+}
+.kode_navi_icon  li{
+	margin-right:15px;
+}
+.kode_navi_icon  li a{
+	display:inline-block;
+	height:32px;
+	width:32px;
+	text-align:center;
+	line-height:32px;
+	background-color:#f2f2f2;
+	border-radius:100%;
+	color:#bcbcbc;
+}
+/*
+	=======================================
+		KODE NAVIGATION WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE BANNER2 WRAP START
+	=======================================
+*/
+.kode_banner2_des{
+	float:left;
+	width:100%;
+}
+.kode_banner2_fig{
+	position:absolute;
+	left:53%;
+	bottom:0px;
+	text-align:center;
+}
+.kode_banner2_fig figure{
+	width:auto;
+}
+.kode_banner_wrap.banner2 .them_overlay:before{
+	background-color:#202020;
+	opacity:0.95;
+}
+.kode_banner_wrap.banner2 .kode_banner_text{
+	text-align:left;
+	margin-left:-550px;
+	width:500px;
+	margin-top:-128px;
+}
+.kode_banner_wrap.banner2 .kode_banner_text .large_text{
+	font-size:44px;
+	margin-bottom:7px;
+}
+.kode_banner_wrap.banner2 .kode_banner_text .large_text:before,
+.kode_banner_wrap.banner2 .kode_banner_text .large_text:after{
+	content:"";
+}
+.kode_banner_wrap.banner2 .kode_banner_text .mediume_text{
+	font-size:20px;
+	font-weight:400;
+}
+
+.kode_banner_wrap.banner2 .slick-prev, 
+.kode_banner_wrap.banner2 .slick-next{
+	height:58px;
+	width:58px;
+	border-radius:100%;
+	border:1px solid #f2f2f2;
+	background:none;
+	left:30px;
+}
+.kode_banner_wrap.banner2 .slick-next{
+	right:30px;
+	left:auto;
+}
+.kode_banner_wrap.banner2 .slick-prev:before,
+ .kode_banner_wrap.banner2 .slick-next:before{
+	line-height:58px;
+	content:"\f177"; 
+ }
+ .kode_banner_wrap.banner2 .slick-next:before{
+	content:"\f178"; 
+ }
+ /*
+	=======================================
+		KODE BANNER2 WRAP END
+	=======================================
+*/
+
+ /*
+	=======================================
+		KODE MOSQUE2 WRAP START
+	=======================================
+*/
+.kode_mosque2_text,
+.kode_mosque2_des,
+.kode_mosque2_fig,
+.kode_mosque2_wrap{
+	float:left;
+	width:100%;
+}
+.kode_mosque2_fig .them_overlay:before {
+    transform: skew(-17deg) translate(44px);
+	opacity:0;
+	left:15px;
+	bottom:10px;
+}
+.kode_mosque2_fig:hover .them_overlay:before {
+   opacity:0.5;
+   z-index:99;
+}
+.kode_mosque2_fig figure{
+	z-index:999;
+	padding:0 0 10px 15px;
+}
+.kode_mosque2_fig figure:after{
+	position:absolute;
+	content:"";
+	top:10px;
+	left:0px;
+	right:15px;
+	bottom:0px;
+	z-index:-1;
+	transform: skew(-17deg) translate(44px);
+}
+.kode_mosque2_wrap{
+	padding:78px 0px 80px;
+}
+.section_hdg.hdg_4 h3{
+	display:block;
+}
+.kode_mosque2_text p{
+	margin-bottom:18px;
+}
+.kode_mosque2_text p:last-child{
+	margin-bottom:23px;
+}
+ /*
+	=======================================
+		KODE MOSQUE2 WRAP END
+	=======================================
+*/
+
+ /*
+	=======================================
+		KODE PILLARS WRAP PILLARS 2 START
+	=======================================
+*/
+.section_hdg.hdg_2.hdg_3.hdg_4{
+	margin-bottom:88px;
+}
+.kode_pillars_wrap.pillare_2{
+	background-color:#f8f8f8;
+	background-image:none;
+	overflow:hidden;
+}
+.kode_pillars_wrap.pillare_2 .kode_pillars_text{
+    border-radius: 100%;
+    height: 550px;
+    margin-bottom: -110px;
+    padding: 80px 0 0;
+    width: 572px;
+	background-image:url("images/piller-bg.png");
+	background-repeat:no-repeat;
+	z-index:999;
+}
+.kode_pillars_wrap.pillare_2 .kode_pillars_text:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#000;
+	opacity:0.6;
+	border-radius:100%;
+	z-index:-1;
+}
+.kode_pillars_wrap.pillare_2 .kode_pillars_text:before{
+	border: 3px dotted;
+	top:-15px;
+	left:-15px;
+	right:-15px;
+	bottom:-15px;
+	border-radius:100%;
+}
+.kode_pillars_wrap.pillare_2 .kode_pillars_text figure img,
+.kode_pillars_wrap.pillare_2 .kode_pillars_text figure{
+	width:auto;
+	float:none;
+}
+.kode_pillars_wrap.pillare_2 .kode_pillars_item{
+	margin-bottom:0px;
+ }
+.kode_pillars_wrap.pillare_2 .center:after,
+.kode_pillars_wrap.pillare_2 .right_bottom:after, 
+.kode_pillars_wrap.pillare_2 .left_bottom:after,
+.kode_pillars_wrap.pillare_2 .right_center:after,
+.kode_pillars_wrap.pillare_2 .left_center:after,
+.kode_pillars_wrap.pillare_2 .kode_pillars_item li a:before{
+	border:none; 
+ }
+ .kode_pillars_wrap.pillare_2 .right_bottom, 
+ .kode_pillars_wrap.pillare_2 .left_bottom{
+	left:103px;
+	right:auto; 
+ }
+.kode_pillars_wrap.pillare_2 .right_bottom{
+	left:auto;
+	right:103px; 
+ }
+.kode_pillars_wrap.pillare_2 .right_center, 
+.kode_pillars_wrap.pillare_2 .left_center{
+	bottom: 296px;
+    left: 170px;
+}
+.kode_pillars_wrap.pillare_2 .right_center{
+	right: 170px;
+	left:auto;
+}
+.kode_pillars_wrap.pillare_2 .center{
+	left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 128px;
+}
+
+.kode_services_wrap.service_2{
+	background-color:#f7f7f7;
+}
+ /*
+	=======================================
+		KODE PILLARS WRAP PILLARS 2 END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE BUILDING WRAP START
+	=======================================
+*/
+.kode_building_des,
+.kode_building_wrap{
+	float:left;
+	width:100%;
+}
+.kode_building_wrap{
+	background-image:url("images/bulding.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:105px 0px;
+}
+.kode_building_wrap.them_overlay:before{
+	opacity:0.94;
+	background-color:#252525;
+}
+.kode_building_des figure{
+	width:auto;
+	border-radius:100%;
+}
+.kode_building_des .them_overlay:before{
+	opacity:0;
+}
+.kode_building_des:hover .them_overlay:before{
+	opacity:0.3;
+	z-index:99;
+}
+.kode_building_text{
+	overflow:hidden;
+	padding-left:30px;
+}
+.kode_building_text h3,
+.kode_building_text h4{
+	margin-bottom:10px;
+}
+.kode_building_text h3{
+	margin-bottom:17px;
+}
+.kode_building_text p{
+	margin-bottom:28px;
+}
+.kode_canvas_detail.canvas_2{
+	border-right: medium none;
+    float: right;
+    padding: 30px 50px 0 0;
+    width: auto;
+}
+.kode_canvas_detail.canvas_2 .progress-bar div{
+	height:184px;
+	width:184px;
+}
+.kode_canvas_detail.canvas_2 .progress-bar div span{
+	height:170px;
+	width:170px;
+	line-height:148px;
+}
+.kode_canvas_detail.canvas_2 > span {
+    font-size: 18px;
+    left: 8px;
+    position: relative;
+    top: -27px;
+}
+ /*
+	=======================================
+		KODE BUILDING WRAP END
+	=======================================
+*/
+
+/*
+	=======================================
+		KODE CLIENT WRAP CLIENT 2 START
+	=======================================
+*/
+.kode_client_wrap.client_2{
+	background:none;
+}
+.kode_client_wrap.client_2 .kode_client_text:hover{
+	background-color:#f7f7f7;
+}
+/*
+	=======================================
+		KODE CLIENT WRAP CLIENT 2 END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE GALLERY WRAP START
+	=======================================
+*/
+.kode_gallery_detail{
+	float:left;
+	width:100%;
+	margin-bottom:30px;
+}
+.kode_gallery_list{
+	float:left;
+	width:50.5%;
+}
+.kode_gallery_list.list_2 {
+    margin-right: 11px;
+    width: 48.4%;
+}
+.kode_gallery_list .kode_gallery_fig{
+	width:100%;
+	margin-bottom:10px;
+}
+.kode_gallery_list .kode_gallery_fig figure{
+	width:auto;
+}
+.kode_gallery_fig.fig_2{
+	float:left;
+	width:49%;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+ /*
+	=======================================
+		KODE GALLERY WRAP END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE EVENT WRAP START
+	=======================================
+*/
+.kode_event_video,
+.kode_event_fig,
+.kode_calender_detail.detail_2 .kode_event_text span,
+.kode_event_wrap{
+	float:left;
+	width:100%;
+}
+.kode_event_wrap{
+	padding:76px 0 79px;
+}
+.kode_calender_detail.detail_2{
+	padding:0px 0px;
+	background:none;
+}
+.kode_calender_detail.detail_2 li:first-child{
+	padding-top:0px;
+}
+.kode_calender_detail.detail_2 li:last-child{
+	padding-bottom:0px;
+}
+.kode_calender_detail.detail_2 .kode_calender_list > span{
+	width:95px;
+	height:107px;
+	font-size:36px;
+	font-weight:bold;
+	padding:25px 0px;
+}
+.kode_calender_detail.detail_2 .kode_calender_list > span i{
+	font-size:24px;
+	display:block;
+	font-weight:400;
+	margin-top:12px;
+}
+.kode_calender_detail.detail_2 .kode_event_text{
+	padding-left:30px;
+}
+.kode_calender_detail.detail_2 .kode_event_text h4{
+	margin-bottom:7px;
+}
+.kode_calender_detail.detail_2 .kode_event_text p{
+	margin-bottom:6px;
+	font-weight:normal;
+}
+.kode_event_text span i{
+	margin-right:8px;
+}
+.kode_event_text span a{
+	display:inline-block;
+}
+.kode_event_fig a{
+	position:absolute;
+	top:50%;
+	left:0px;
+	right:0px;
+	margin:auto;
+	font-size:75px;
+	text-align:center;
+	margin-top:-40px;
+	z-index:10;
+}
+.kode_event_fig .them_overlay:before{
+	opacity:0.45;
+	z-index:9;
+}
+ /*
+	=======================================
+		KODE EVENT WRAP END
+	=======================================
+*/
+
+ /*
+	=======================================
+		WIDGET WRAP WIDGET 02 START
+	=======================================
+*/
+
+.widget_wrap.widget_2.them_overlay:before{
+	opacity:0.85;
+	background-color:#131313;
+}
+.widget_event.event_2 .kode_textarea textarea,
+.widget_event.event_2 .kf_commet_field input,
+.widget_logo.logo_2 .widget_call_info{
+	border-color:#fff;
+}
+.form-submit .medium_btn{
+	cursor:pointer;
+}
+.widget_event.event_2 .form-submit .medium_btn:hover{
+	background-color:#fff;
+}
+.widget_event.event_2 .kode_calender_list > span{
+	background-color:#989898;
+}
+ /*
+	=======================================
+		WIDGET WRAP WIDGET 02 END
+	=======================================
+*/
+
+ /*
+	---------------------------------------------------------------------------
+	===========================================================================
+						ABOUT US PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	=======================================
+		KODE SAB BANNER WRAP START
+	=======================================
+*/
+
+.sab_banner_text,
+.kode_sab_banner_wrap{
+	float:left;
+	width:100%;
+}
+.kode_sab_banner_wrap{
+	padding:60px 0px 65px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	animation: 10s linear 0s normal none infinite running shafaqat;
+	background: rgba(0, 0, 0, 0) url("images/banner-pattran-bg.png") repeat scroll 0 0;
+}
+@-webkit-keyframes shafaqat{
+	  0%{background-position:50% 0}
+	  100%{background-position:120px 0%}
+	}
+	@-moz-keyframes shafaqat{
+	  0%{background-position:50% 0}
+	  100%{background-position:120px 0%}
+	}
+	@-ms-keyframes shafaqat{
+	  0%{background-position:50% 0}
+	  100%{background-position:120px 0%}
+	}
+	@keyframes shafaqat{
+	  0%{background-position:50% 0}
+	  100%{background-position:120px 0%}
+}
+	  
+.kode_sab_banner_wrap.them_overlay:before{
+	opacity:0.97;
+}
+.sab_banner_text{
+	text-align:center;
+	position:relative;
+}
+.sab_banner_text h2{
+	margin-bottom:19px;
+}
+.breadcrumbs{
+	display:inline-block;
+	background-color:#fff;
+	padding:8px 24px;
+	border-radius:2px;
+}
+.breadcrumbs li{
+	margin-right:33px;
+	position:relative;
+	display:inline-block;
+}
+.breadcrumbs li:last-child{
+	margin-right:0px;
+}
+.breadcrumbs li strong{
+	text-transform:uppercase;
+	font-size:14px;
+}
+.breadcrumbs li:last-child:before{
+	content:"";
+}
+.sab_banner_text li:before{
+	position:absolute;
+	content:"\f101";
+	top:1px;
+	right:-23px;
+	bottom:0px;
+	font-family:fontawesome;
+	font-size:14px;
+}
+ /*
+	=======================================
+		KODE SAB BANNER WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE PHILOSOPHY WRAP START
+	=======================================
+*/
+.kode_philosophy_text,
+.kode_Philosophy_wrap{
+	float:left;
+	width:100%;
+}
+.kode_Philosophy_wrap{
+	padding:80px 0px 120px;
+	background-image:url("images/philosophy-pt.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.kode_Philosophy_wrap.them_overlay:before{
+	background-color:#fff;
+	opacity:0.95;
+}
+.kode_philosophy_text{
+	text-align:center;
+	padding:30px 25px;
+	border:1px solid #d5d5d5;
+	background-color:#fff;
+}
+.kode_philosophy_text:hover{
+	box-shadow:0px 0px 25px -12px; 
+}
+.kode_philosophy_text span{
+	display:inline-block;
+	height:99px;
+	width:99px;
+	text-align:center;
+	line-height:99px;
+	background-color:#5c5c5c;
+	border-radius:100%;
+	font-size:42px;
+	margin-bottom:17px;
+}
+.kode_philosophy_text h4{
+	padding-bottom:11px;
+	margin-bottom:10px;
+	position:relative;
+}
+.kode_philosophy_text h4:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:132px;
+	border-bottom:1px solid #d2d2d2;
+	margin:auto;
+}
+.kode_philosophy_text p{
+	margin-bottom:20px;
+}
+/*slick slider start*/
+.kode_Philosophy_wrap .slick-slide {
+    padding: 0 15px;
+}
+.kode_Philosophy_wrap .slick-dots {
+   border: 1px solid;
+    bottom: -70px;
+    float: none;
+    left: 0;
+    margin: auto;
+    padding:1px 0 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 140px;
+}
+.kode_Philosophy_wrap .slick-dots li button{
+	padding:0px 0px;
+	height:14px;
+	width:14px;
+}
+.kode_Philosophy_wrap .slick-dots li {
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    margin: 0 5px;
+    padding: 0;
+    position: relative;
+    width: 14px;
+	background-color:#d4d4d4;
+	border-radius:100px;
+}
+.kode_Philosophy_wrap .slick-dots li button:before{
+	content:"";
+}
+.kode_Philosophy_wrap .slick-prev, 
+.kode_Philosophy_wrap .slick-next{
+	display:none !important;
+}
+/*
+	=======================================
+		KODE PHILOSOPHY WRAP END
+	=======================================
+*/
+/*
+	=======================================
+		KODE CLIENT WRAP CLIENT 3 START
+	=======================================
+*/
+.kode_client_wrap.client_3{
+	padding:80px 0px 138px;
+}
+.kode_client_wrap.client_3 .kode_client_text{
+	background-color:#fff;
+}
+.kode_client_wrap.client_3 .kode_client_text p:after{
+	left:-3px;
+}
+.kode_client_wrap .slick-slide{
+	padding:0px 15px;
+}
+.kode_client_wrap.client_3 .slick-prev, 
+.kode_client_wrap.client_3 .slick-next{
+	top:auto;
+	bottom:-80px;
+	left:-55px;
+	right:0px;
+	text-align:center;
+	margin:auto;
+	height:46px;
+	width:46px;
+	background-color:#333333;
+	border-radius:2px;
+}
+.kode_client_wrap.client_3 .slick-next{
+	right:-115px;
+}
+.kode_client_wrap.client_3 .slick-prev:before, 
+.kode_client_wrap.client_3 .slick-next:before{
+	line-height:46px;
+}
+/*
+	=======================================
+		KODE CLIENT WRAP CLIENT 3 END
+	=======================================
+*/
+ /*
+	---------------------------------------------------------------------------
+	===========================================================================
+						BLOG PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	=======================================
+		KODE BLOG MADIUM WRAP START
+	=======================================
+*/
+.kode_blog_des,
+.kode_blog_madium_wrap{
+	float:left;
+	width:100%;
+}
+.kode_blog_madium_wrap{
+	padding:80px 0px;
+	background-color:#f7f7f7;
+}
+.kode_blog_madium_wrap.wrap_2{
+	padding:80px 0px 50px;
+}
+.kode_blog_des .kode_blog_text{
+	padding:27px 30px 30px 30px;
+	position:relative;
+}
+.kode_blog_des{
+	margin-bottom:30px;
+	background-color:#fff;
+}
+.kode_blog_des:hover figure img{
+	transform:scale(1.7);
+	-moz-transform:scale(1.7);
+	-webkit-transform:scale(1.7);
+}
+.kode_blog_des .them_overlay:before{
+	opacity:0;
+	z-index:9;
+}
+.kode_blog_des:hover .them_overlay:before{
+	opacity:0.65;
+}
+.kode_blog_des:hover{
+	box-shadow:0 0 10px -1px;
+}
+.kode_blog_text h4{
+	margin-bottom:15px;
+}
+.kode_blog_text h4 span{
+	display:block;
+}
+.kode_blog_des .kode_meta.meta_2{
+	margin-bottom:12px;
+}
+.kode_blog_des .kode_meta.meta_2 li{
+	border-right:none;
+}
+.kode_blog_des .kode_meta.meta_2 li a{
+	text-transform:uppercase;
+}
+.kode_blog_text p{
+	margin-bottom:24px;
+}
+.kode_blog_des .kode_blog_text .share_link{
+	position:absolute;
+	right:30px;
+	bottom:35px;
+	height:33px;
+	width:33px;
+	border:1px solid #d5d5d5;
+	border-radius:100%;
+	text-align:center;
+	line-height:33px;
+	color:#d4d4d4;
+}
+.kode_blog_des figure .btn_hover2:before{
+	border-radius:100%;
+}
+
+/* KODE PAGINATION START */
+.kode_pagination_list{
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+.kode_pagination_list.navi_2{
+	margin-top:0px;
+}
+.kode_pagination{
+	background-color: #eeeeee;
+    margin: auto;
+    padding: 15px 0;
+    text-align: center;
+	overflow:hidden;
+    width: 390px;
+}
+.kode_pagination li{
+	display:inline-block;
+}
+.kode_pagination .next,
+.kode_pagination .prve {
+    height: auto;
+    width: auto;
+}
+.kode_pagination .next:hover,
+.kode_pagination .prve:hover{
+	background:none;
+}
+.kode_pagination .next,
+.kode_pagination .next i{
+	margin-left:10px;
+}
+.kode_pagination .prve ,
+.kode_pagination .prve  i{
+	margin-right:10px;
+}
+.kode_pagination li a{
+	display:inline-block;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	font-weight:bold;
+	color:#000;
+	border-radius:2px;
+	margin-right:5px;
+}
+/*
+	=======================================
+		KODE BLOG MADIUM WRAP END
+	=======================================
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						BLOG GRID PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_blog_caption{
+	float:left;
+	width:100%;
+	padding:15px 30px 0px 30px;
+	margin-bottom:0px;
+}
+.kode_blog_des.des_2 .kode_blog_text{
+	padding:27px 1px 35px 1px;
+}
+.kode_blog_des.des_2 .kode_blog_text h4{
+	padding:0px 30px 15px 30px;
+	border-bottom:1px solid #dadada;
+	margin-bottom:0px;
+}
+.kode_blog_caption .kode_meta.meta_2{
+	margin-bottom:0px;
+}
+.kode_blog_caption .kode_meta.meta_2 li:first-child{
+	padding-right:0px;
+}
+.kode_blog_caption p{
+	margin-bottom:22px;
+}
+.kode_blog_des.des_2 .kode_blog_text .share_link {
+    bottom: 30px;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						BLOG DETAIL PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_blog_detail_post,
+.comment_des,
+.comment > li,
+.comment,
+.kode_comments,
+.kode_social_share,
+.blog_text,
+.kode_detail_fig,
+.blog_quote,
+.kode_blog_detail_text,
+.kode_blog_detail_des,
+.kode_blog_detail_row{
+	float:left;
+	width:100%;
+}
+.kode_blog_madium_wrap.detail{
+	background:none;
+	padding:80px 0px;
+}
+.kode_blog_madium_wrap.detail.padding{
+	padding:80px 0px 50px;
+}
+.comment_des .them_overlay:before,
+.kode_detail_fig .them_overlay:before,
+.kode_blog_detail_des .them_overlay:before{
+	opacity:0;
+}.comment_des:hover .them_overlay:before,
+.kode_detail_fig:hover .them_overlay:before,
+.kode_blog_detail_des:hover .them_overlay:before{
+	opacity:0.35;
+}
+.kode_blog_detail_des{
+	padding-bottom:35px;
+}
+.kode_blog_detail_text{
+	padding:25px 0px 28px;
+	border-bottom:1px solid #e2e2e2;
+	margin-bottom:14px;
+}
+.kode_blog_detail_text h3{ 
+	padding-bottom:10px;
+}
+.kode_blog_detail_text .kode_meta.meta_2 li {
+	line-height:12px;
+	padding:0px 30px;
+}
+.kode_blog_detail_text .kode_meta.meta_2 li:first-child{
+	padding-left:0px;
+}
+.kode_blog_detail_text .kode_meta.meta_2 li a{
+	font-size:12px;
+	line-height:14px;
+	text-transform:uppercase;
+}
+.kode_blog_detail_des p{
+	margin-bottom:18px;
+}
+.kode_blog_detail_des p:last-child{
+	margin-bottom:0px;
+}
+/* BLOG QUOTE START */
+.blog_quote{
+	padding:30px 30px;
+	border-left:6px solid;
+	background-color:#f7f7f7;
+	margin-bottom:40px;
+}
+.blog_quote span{
+	float:left;
+	height:82px;
+	width:82px;
+	text-align:center;
+	line-height:82px;
+	border-radius:100%;
+	font-size:33px;
+	display:inline-block;
+}
+.quote_text{
+	overflow:hidden;
+	padding-left:30px;
+}
+/* KODE DETAIL FIG START */
+.kode_detail_fig{
+	margin-bottom:24px;
+}
+.kode_detail_fig figure{
+	width:50%;
+}
+.kode_detail_fig_text{
+	float:left;
+	width:50%;
+	padding-left:30px;
+}
+.kode_detail_fig_text p:last-child{
+	margin-bottom:0px;
+}
+.kode_detail_fig.fig_2 .kode_detail_fig_text{
+	padding-left:0px;
+	padding-right:30px;
+}
+.blog_text{
+	margin-bottom:24px;
+}
+/* KODE SOCIAL SHARE START */
+.kode_social_share{
+	padding:18px 30px 14px;
+	background-color:#f4f4f4;
+	margin-bottom:38px;
+}
+.kode_social_share > a{
+	float:left;
+	margin-right:30px;
+}
+.kode_social_share > a i{
+	margin-right:10px;
+}
+.social_meta li,
+.social_meta{
+	float:left;
+	width:auto;
+}
+.social_meta li{
+	margin-right:15px;
+}
+.social_meta li a{
+	height:26px;
+	width:26px;
+	text-align:center;
+	line-height:26px;
+	border-radius:100%;
+	background-color:#d4d4d4;
+	display:inline-block;
+} 
+.kode_social_share .kode_pagination{
+	width:auto;
+	background:none;
+	padding:0px 0px;
+	margin:0px 0px;
+	float:right;
+}
+/* KODE COMMENT START */
+.comment_title{
+	margin-bottom:25px;
+}
+.comment_des{
+	padding:30px 0px;
+	border-bottom:1px solid #d4d4d4;
+}
+.comment_des figure{
+	width:auto;
+	border-radius:100%;
+}
+.comment_des .them_overlay:before{
+	border-radius:100%;
+}
+.comment_text{
+	overflow:hidden;
+	padding-left:30px;
+	margin-top:-5px;
+}
+.comment_text p{
+	margin-bottom:5px;
+}
+.comment_text .kode_meta{
+	margin-bottom:0px;
+	padding-left:0px;
+}
+.comment_text .kode_meta > li a{
+	text-transform:uppercase;
+	font-size:14px;
+	color:#333;
+}
+.comment ul{
+	padding-left:30px;
+	float:left;
+	width:100%;
+}
+.comment_des.padding{
+	padding-top:0px;
+}
+
+/* KODE COMMENT START */
+.kode_comments .kf_commet_field{
+	float:left;
+	width:47.9%;
+	margin-right:28px;
+	margin-bottom:30px;
+}
+.kf_commet_field:nth-child(4),
+.kf_commet_field:nth-child(2) {
+    margin-right: 0;
+}
+.kode_comments .form-submit{
+	margin-bottom:0px;
+}
+.kode_comments .kode_textarea textarea{
+	border-color:#e9e9e9;
+}
+.kode_comments .kode_textarea textarea::-moz-placeholder{
+	color:#666;
+}
+.kode_comments .form-submit .medium_btn{
+	border:none;
+}
+.kode_blog_detail_post .section_hdg{
+	margin-bottom:23px;
+}
+.kode_blog_detail_post .section_hdg h3{
+	font-size:20px;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						BLOG DETAIL PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						404 PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_404_text,
+.kode_404_wrap{
+	float:left;
+	width:100%;
+}
+.kode_404_wrap{
+	background-image:url("images/404-bg.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	z-index:99;
+	padding:150px 0 170px;
+	height:100%;
+}
+.kode_404_text{
+	text-align:center;
+}
+.kode_404_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:-1;
+	background:rgba(0, 0, 0, 0) linear-gradient(5deg, #ffffff, #000000) repeat scroll 0 0;
+	opacity:0.5;
+}
+.kode_404_text h2{
+	font-size:375px;
+	font-weight:bold;
+	line-height:375px;
+}
+.kode_404_text h2 span{
+	display: inline-block;
+    font-size: 207px;
+    font-weight: 500;
+    position: relative;
+	height:280px;
+	width:280px;
+	text-align:center;
+	top:-23px;
+	margin:0px -30px;
+}
+.kode_404_text h2 span:before{
+	background-image:url("images/404_bg1.png");
+	position:absolute;
+	content:"";
+	top:6px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:-1;
+}
+.kode_404_text h3{
+	padding:22px 50px 13px;
+	font-size:84px;
+	display:inline-block;
+	line-height:84px;
+	text-shadow:5px 4px #deb47e;
+	box-shadow:0px 0px 18px -1px;
+	margin-bottom:40px;
+}
+.kode_404_text p{
+	font-size:33px;
+	text-transform:uppercase;
+	line-height:normal;
+	margin-bottom:42px;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						404 PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						COMING SOON PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.coming_social_icon,
+.countdown.timer,
+.kode_coming_soon_wrap{
+	float:left;
+	width:100%;
+}
+.kode_coming_soon_wrap{
+	background-image:url("images/coming-bg.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	z-index:99;
+	padding:180px 0px;
+	height:100%;
+}
+.kode_coming_soon_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:-1;
+	background:rgba(0, 0, 0, 0) linear-gradient(0deg, #ffffff, #000000) repeat scroll 0 0;
+	opacity:0.85;
+}
+.kode_coming_text{
+	text-align:center;
+	width:834px;
+	margin:auto;
+}
+.kode_coming_text a img{
+	margin-bottom:54px;
+}
+.kode_coming_text h2{
+	text-transform:uppercase;
+	margin-bottom:40px;
+}
+.countdown.timer{
+	margin-bottom:50px;
+}
+.countdown.timer li{
+	display:inline-block;
+	width:110px;
+	height:100px;
+	text-align:center;
+	border:1px solid #fff;
+	padding:22px 0;
+	margin-right:25px;
+}
+.countdown.timer li:last-child{
+	margin-right:0px;
+}
+.countdown.timer li span{
+	display:block;
+	font-size:33px;
+	margin-bottom:12px;
+}
+.countdown.timer li h5{
+	margin-bottom:0px;
+	text-transform:uppercase;
+}
+.kode_coming_text .progress {
+    height:24px;
+    overflow: hidden;
+    text-align: center;
+	outline:1px solid #fff;
+	outline-offset:-1px;
+	margin-bottom:68px;
+}
+.kode_coming_text .progress-bar {
+    color: #ffffff;
+    font-weight: 400;
+    height: 24px;
+    line-height: 21px;
+    width: 70%;
+}
+.kode_coming_text .kode_search{
+	float: none;
+    margin: auto;
+    width: 606px;
+	margin-bottom:40px;
+}
+.kode_coming_text .kode_search .kf_commet_field input::-moz-placeholder{
+	color:#fff;
+}
+.kode_coming_text .kode_search .kf_commet_field button{
+	width:135px;
+}
+.coming_social_icon{
+	text-align:center;
+}
+.coming_social_icon  li{
+	display:inline-block;
+	margin-right:18px;
+}
+.coming_social_icon  li a{
+	display:inline-block;
+	height:46px;
+	width:50px;
+	text-align:center;
+	line-height:46px;
+}
+.blue{
+	background-color:#3b5997;
+}
+.blue-light{
+	background-color:#55acef;
+}
+.pinke{
+	background-color:#e13b6b;
+}
+.red{
+	background-color:#bc081d;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						COMING SOON PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						CONTACT US PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_contact_text,
+.kode_contact_service ul,
+.kode_contact_service,
+.kode_contact_wrap .comment-form,
+.kode_contact_des,
+.kode_contact_field,
+.kode_contact_map,
+.kode_contact_wrap{
+	float:left;
+	width:100%;
+}
+.kode_contact_map .map-canvas{
+	height:400px;
+	width:100%;
+}
+.kode_contact_des{
+	padding:80px 0 73px;
+}
+.kode_contact_field{
+	margin-bottom:40px;
+}
+.kode_contact_field .kf_commet_field{
+	margin-bottom:30px;
+}
+.kode_contact_field .form-submit{
+	display: inline-block;
+    float: none;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.form-submit .medium_btn{
+	border:none;
+}
+.kode_contact_field .form-submit .medium_btn{
+	text-align:center;
+	display:inline-block;
+	width:auto;
+}
+
+.kode_contact_service{
+	text-align:center;
+}
+.kode_contact_service ul li{
+	display:inline-block;
+	background-color:#f7f7f7;
+	padding:45px 0px;
+	margin-right:20px;
+	width:260px;
+	position:relative;
+	z-index:9;
+	overflow:hidden;
+}
+.kode_contact_service ul li:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:-1;
+	opacity:0;
+}
+.kode_contact_service ul li:hover:before{
+	opacity:1;
+	box-shadow:0px 0px 30px -6px;
+}
+.kode_contact_text h5{
+	margin-bottom:6px;
+}
+.kode_contact_text > a{
+	font-size:16px;
+	display:inline-block;
+	margin-bottom:3px;
+}
+.kode_contact_text p{
+	margin-bottom:0px;
+}
+.kode_contact_text p span{
+	display:block;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						CONTACT US PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						EVENT PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_event_detail li,
+.kode_event_detail,
+.kode_event_wrap{
+	float:left;
+	width:100%;
+}
+.kode_event_detail li{
+	background-color:#f0f0f0;
+	padding:25px 30px;
+	border-radius:3px;
+	margin-bottom:30px;
+}
+.kode_event_detail li:last-child{
+	margin-bottom:40px;
+}
+.kode_portfolio_des:hover,
+.kode_event_speakar_fig:hover,
+.kode_event_detail li:hover{
+	box-shadow:0px 11px 9px -10px #999;
+}
+.kode_event_ticket,
+.kode_event_detail .kode_calender_list,
+.kode_calender_list figure,
+.event_date{
+	float:left;
+	width:auto;
+}
+.event_date {
+	text-align:center;
+	padding-right:30px;
+	position:relative;
+}
+.event_date:before{
+	position:absolute;
+	content:"";
+	top:20px;
+	right:0px;
+	bottom:0px;
+	border-right:1px solid #d0d0d0;
+	height:64px;
+}
+.event_date span{
+	display: inline-block;
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 66px;
+	margin-bottom:3px;
+}
+.event_date p{
+	margin-bottom:0px;
+	text-transform:uppercase;
+}
+.kode_event_detail .kode_calender_list{
+	padding-left:30px;
+}
+.kode_portfolio_des .them_overlay:before,
+.kode_coming_fig .them_overlay:before,
+.kode_event_speakar_fig .them_overlay:before,
+.kode_event_detail .kode_calender_list .them_overlay:before{
+	opacity:0;
+	z-index:9;
+}
+.kode_portfolio_des:hover .them_overlay:before,
+.kode_coming_fig:hover .them_overlay:before,
+.kode_event_speakar_fig:hover .them_overlay:before,
+.kode_event_detail .kode_calender_list:hover .them_overlay:before{
+	opacity:0.35;
+}
+.kode_event_detail .kode_calender_list .kode_event_text{
+	padding:0px 20px;
+}
+.kode_event_detail .kode_calender_list .kode_event_text h4{
+	margin-bottom:2px;
+}
+.kode_event_detail .kode_calender_list .kode_event_text p{
+	margin-bottom:1px;
+}
+.kode_event_detail .kode_calender_list .kode_event_text p span{
+	display:block;
+	color:#999;
+}
+.kode_event_detail .kode_calender_list .kode_event_text span a{
+	font-size:12px;
+	color:#333;
+	line-height:16px;
+	font-weight:400;
+}
+.kode_event_ticket{
+	padding:15px 0px;
+}
+.event_studium{
+	display:inline-block;
+	padding:20px 30px 20px 20px;
+	border-left:1px solid #d0d0d0;
+	border-right:1px solid #d0d0d0;
+	font-size:12px;
+}
+.event_studium:hover{
+	color:#333;
+}
+.event_studium i{
+	margin-right:10px;
+	color:#333333;
+}
+.kode_event_ticket .medium_btn{
+	margin-left:28px;
+}
+.kode_event_wrap .kode_blog_list > ul{
+	padding-bottom:40px;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						EVENT PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						EVENT DETAIL PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_blog_detail_des .kode_calender_detail.detail_2{
+	padding:30px 0px;
+	border-bottom:1px solid #e9e9e9;
+	margin-bottom:25px;
+}
+.kode_calender_list{
+	position:relative;
+}
+.kode_blog_detail_des .kode_calender_detail.detail_2 .kode_event_text{
+	padding:0 130px 0 20px;
+}
+.kode_blog_detail_des .kode_calender_detail.detail_2 .kode_event_text p{
+	font-weight:300;
+	text-transform:lowercase;
+}
+.kode_blog_detail_des .kode_calender_detail.detail_2 .kode_event_text span a{
+	font-weight:300;
+}
+.kode_calender_list .medium_btn{
+	position:absolute;
+	top:29px;
+	right:0px;
+}
+/* KODE DETAIL DATE START */
+.event_detail_list li,
+.kode_detail_date{
+	float:left;
+	width:100%;
+}
+.kode_detail_date{
+	background-color:#f7f7f7;
+	padding:26px 30px;
+}
+.event_detail_list{
+	float:left;
+	width:50%;
+	border-right:1px solid #d6d6d6;
+}
+.event_detail_list li {
+	margin-bottom:21px;
+}
+.event_detail_list li:last-child{
+	margin-bottom:0px;
+}
+.event_detail_list li a{
+	display:block;
+	text-transform:uppercase;
+	color:#999;
+}
+.event_detail_list li a i{
+	margin-right:10px;
+}
+.event_detail_list li a span{
+	color:#666;
+	display:inline-block;
+	width:100px;
+	font-weight:400;
+}
+.event_detail_list.list_2{
+	border-right:none;
+	padding-left:80px;
+}
+.event_detail_list.list_2 li a span{
+	width:80px;
+}
+/* KODE EVENT SPEAKER START */
+.kode_event_speakar{
+	float:left;
+	width:100%;
+}
+.kode_event_speakar_fig{
+	background-color: #f7f7f7;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    padding: 20px 30px;
+    width: 47.9%;
+}
+.kode_event_speakar .kode_event_speakar_fig  .kode_event_speaker_text p{
+	margin-bottom:0px;
+}
+.kode_event_speakar_fig:nth-child(3) {
+    margin-right: 0;
+}
+.kode_event_speakar_fig figure{
+	width:auto;
+	border-radius:100%;
+}
+.kode_event_speaker_text{
+	display:inline-block;
+	overflow:hidden;
+	margin-left:40px;
+	padding:16px 0px 4px  40px;
+	position:relative;
+}
+.kode_event_speaker_text:before{
+	position:absolute;
+	content:"";
+	top:7px;
+	left:0px;
+	bottom:0px;
+	border-left:1px solid #e5e5e5;
+	height:66px;
+}
+.kode_event_speaker_text h6{
+	margin-bottom:5px;
+}
+.kode_event_speaker_text > p{
+	margin-bottom:0px;
+}
+.kode_event_speakar p{
+	margin-bottom:18px;
+}
+.kode_event_speakar p:last-child{
+	margin-bottom:26px;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						EVENT DETAIL PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						PORTFOLIO PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_portfolio_detail ul,
+.kode_portfolio_detail,
+.kode_portfolio_text,
+.kode_portfolio_des,
+.kode_portfolio_wrap{
+	float:left;
+	width:100%;
+}
+.kode_portfolio_des{
+	margin-bottom:30px;
+	background-color:#fff;
+}
+.kode_portfolio_des:hover figure img{
+	transform:scale(1.5);
+	-moz-transform:scale(1.5);
+	-webkit-transform:scale(1.5);
+}
+.kode_portfolio_text{
+	padding:18px 20px 15px;
+}
+.kode_portfolio_text h6{
+	margin-bottom:10px;
+}
+.kode_portfolio_text h4{
+	margin-bottom:8px;
+}
+.kode_portfolio_text p{
+	margin-bottom:0px;
+}
+.kode_portfolio_text p span{
+	display:block;
+}
+.kode_portfolio_detail ul{
+	text-align:center;
+	margin-bottom:40px;
+}
+.kode_portfolio_detail ul li{
+	display:inline-block;
+	margin-right:20px;
+}
+.kode_portfolio_detail ul li a{
+	display:inline-block;
+	padding:10px 20px 12px;
+	line-height:normal;
+	border:1px solid #d5d5d5;
+	border-radius:2px;
+	color:#333333;
+}
+.filtr-container{
+	float:left;
+	width:100%;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						PORTFOLIO PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						PROJECT PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_project_dollar,
+.kode_project_text{
+	float:left;
+	width:100%;
+}
+.kode_project_text{
+	text-align:center;
+	padding:27px 30px 23px;
+}
+.kode_project_text h5,
+.kode_project_text h4{
+	margin-bottom:15px;
+}
+.kode_project_text  > span{
+	height:60px;
+	width:60px;
+	text-align:center;
+	line-height:60px;
+	border-radius:100%;
+	font-size:20px;
+	font-weight:600;
+	display:inline-block;
+	margin-bottom:13px;
+}
+.kode_project_dollar{
+	margin-bottom:8px;
+}
+.kode_project_dollar  a{
+	float:left;
+	display:inline-block;
+}
+.kode_project_dollar  a:last-child{
+	float:right;
+}
+.kode_project_text   p{
+	margin-bottom:0px;
+}
+.kode_project_text.text_2 .kode_project_dollar a{
+	text-align:center;
+	float:none;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						PROJECT PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						PROJECT LIST PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_portfolio_des.des_2 figure{
+	width:50%;
+}
+.kode_portfolio_des.des_2 .kode_project_text{
+	width:50%;
+	text-align:left;
+	padding:25px 30px 30px;
+}
+.kode_portfolio_des.des_2 .kode_project_text h4{
+	margin-bottom:30px;
+}
+.kode_portfolio_des.des_2 .kode_project_text p{
+	text-align:center;
+	margin-bottom:24px;
+}
+.kode_project_share .kode_social_share{
+	float:right;
+	padding:9px 0px;
+	background:none;
+	width:auto;
+	margin-bottom:0px;
+}
+.kode_portfolio_des.des_2 .kode_project_dollar{
+	margin-bottom:18px;
+}
+/* Progress Bar Wrap CSS Start */
+.progress-names{
+	float:left;
+	width:100%;	
+}
+.kode_attorney_detail_skill .progressbar{
+    position:relative;
+    width:100%;
+    height:22px;
+    padding:0;
+    margin:0 auto;
+   background-color: #e1e1e1;
+   margin-bottom:28px;
+}
+.kode_attorney_detail_skill .bar {
+	position:absolute;
+	display:block;
+	width:0px;
+	height:22px;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+}
+.kode_attorney_detail_skill .label {
+	background: #000000 none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    left: 0;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    top: -22px;
+    width: 60px;
+	box-shadow:1px 1px 5px 0px #dbdbdb;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						PROJECT LIST PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						SERVICE PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+
+ /*
+	=======================================
+		KODE SERVICE SEARCH FEILD START
+	=======================================
+*/
+.kode_service_search_feild{
+	float:left;
+	width:100%;
+}
+.kode_service_search_feild{
+	background-image: url("images/service_bg.png"), url("images/service_bg1.png");
+    background-position: left center, right center;
+    background-repeat: no-repeat;
+	background-size:952px 860px;
+	position:relative;
+	z-index:999;
+}
+.kode_service_search_feild.them_overlay:before{
+	width:50%;
+	opacity:0.75;
+	z-index:-1;
+}
+.kode_service_search_feild:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	width:50%;
+	background-color:#a4a4a4;
+	opacity:0.25;
+}
+.kode_service_form{
+	float:left;
+	width:50%;
+	padding:75px 119px 80px;
+}
+.kode_service_form .section_hdg{
+	margin-bottom:24px;
+}
+.kode_service_form .section_hdg h3{
+	margin-bottom:7px;
+}
+.kode_service_form .section_hdg p{
+	margin-bottom:0px;
+}
+.kode_service_form .kf_commet_field input{
+	border-color:#e2e2e2;
+}
+.kode_service_form  .kode_textarea textarea::-moz-placeholder,
+.kode_service_form .kf_commet_field input[type="text"]::-moz-placeholder{
+	color:#f2f2f2;
+}
+.kode_service_form  .kode_textarea textarea{
+	background:none;
+}
+ /*
+	=======================================
+		KODE SERVICE SEARCH FEILD END
+	=======================================
+*/
+ /*
+	=======================================
+		KODE PRICING WRAP START
+	=======================================
+*/
+.pricing_list li,
+.pricing_list,
+.kode_pricing_dollar,
+.kode_pricing_des,
+.kode_pricing_wrap{
+	float:left;
+	width:100%;
+}
+.kode_pricing_wrap{
+	padding:80px 0px;
+	background-color:#f5f5f5;
+}
+.kode_pricing_des{
+	text-align:center;
+	background-color:#f8f8f8;
+	border-top:5px solid #e4e4e4;
+	padding-bottom:30px;
+}
+.kode_pricing_des:hover{
+	box-shadow:0 4px 13px -5px #ddd;
+}
+.kode_pricing_des h4{
+	padding:22px 0px 20px;
+	border-bottom:1px solid #e4e4e4;
+}
+.kode_pricing_dollar{
+	padding:18px 30px 15px;
+	border-bottom:1px solid #e4e4e4;
+}
+.kode_pricing_des:hover .kode_pricing_dollar{
+	background-color:#fff;
+}
+.kode_pricing_dollar h3{
+	display:inline-block;
+	padding-bottom:5px;
+	border-bottom:2px solid #bfbfbf;
+	margin-bottom:14px;
+}
+.kode_pricing_dollar p{
+	margin-bottom:0px;
+}
+.pricing_list{
+	padding:28px 0 29px;
+}
+.pricing_list li {
+	margin-bottom:10px;
+}
+.pricing_list li:last-child{
+	margin-bottom:0px;
+}
+.pricing_list li a{
+	position:relative;
+	display:inline-block;
+	font-weight:400;
+}
+.pricing_list li a:before{
+	position:absolute;
+	content:"\f00c";
+	top:0px;
+	left:-28px;
+	bottom:0px;
+	font-family:fontawesome;
+}
+ /*
+	=======================================
+		KODE PRICING WRAP END
+	=======================================
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						SERVICE PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_service_des .right_arrow.btn{
+	border: medium none;
+    height: auto;
+    opacity: 1;
+    padding: 0;
+    right: 30px;
+    width: auto;
+	color:#333333;
+}
+.kode_service_des .right_arrow.btn i{
+	margin-left:10px;
+}
+.kode_service_des:hover .right_arrow.btn{
+	opacity:1;
+	background:none;
+}
+.kode_blog_madium_wrap.detail .kode_service_des{
+	border:1px solid #ececec;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						SHOP PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_blog_madium_wrap.wrap_2{
+	background:none;
+}
+.kode_blog_madium_wrap.wrap_2.padding{
+	padding:80px 0px;
+}
+.kode_shop_text > h5,
+.kode_shop_text,
+.kode_shop_fig{
+	float:left;
+	width:100%;
+}
+.kode_shop_fig{
+    margin-bottom: 20px;
+}
+.kode_shop_fig:hover{
+	box-shadow: 0 3px 8px -5px;
+}
+.kode_shop_text{
+	padding:17px 5px 15px;
+}
+.kode_shop_text h6{
+	float:left;
+	margin-bottom:10px;
+}
+.kode_shop_text h3{
+	display:block;
+}
+.kode_shop_text > h5{
+	font-weight:400;
+}
+.kode_shop_fig .event_rating{
+	position:relative;
+	top:-5px;
+}
+.kode_shop_fig .event_rating a{
+	font-size:12px;
+}
+.kode_shop_fig  .shop_icon{
+	position:absolute;
+	top:50%;
+	right:-40px;
+	opacity:0;
+}
+.kode_shop_fig:hover  .shop_icon{
+	opacity:1;
+	right:40px;
+}
+.kode_shop_fig  .shop_icon li{
+	margin-bottom:10px;
+}
+.kode_shop_fig  .shop_icon li:last-child{
+	margin-bottom:0px;
+}
+.kode_shop_fig  .shop_icon li a{
+	display:inline-block;
+	height:33px;
+	width:33px;
+	border-radius:100%;
+	background-color:#f7f7f7;
+	text-align:center;
+	line-height:33px;
+}
+.kode_shop_fig  .shop_icon li a:hover{
+	transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	-webkit-transform:scale(1.3);
+}
+.kode_shop_fig .them_overlay:before{
+	background-color:#d8d8d8;
+	opacity:0;
+}
+.kode_shop_fig:hover .them_overlay:before{
+	opacity:0.85;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						SHOP PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						TEAM DETAIL PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+
+/*
+	=============================================
+			KODE TEAM WRAP START
+	=============================================
+*/
+.kode_team_detail_row,
+.kode_team_profile,
+.kode_view_text,
+.kode_view_row,
+.kode_overview,
+.kode_team_wrap,
+.kode_team_fig{
+	float:left;
+	width:100%;
+}
+.kode_team_wrap{
+	padding:80px 0px;
+}
+.kode_team_detail_row{
+	padding-bottom:40px;
+	border-bottom:1px solid #e4e4e4;
+}
+.kode_team_fig figure{
+	margin-bottom:30px;
+}
+.kode_team_fig .siderbar_categories {
+    padding:27px 25px 65px;
+	position:relative;
+}
+.kode_team_fig .siderbar_categories a{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+.sidebar_title.title_2{
+	margin-bottom:14px;
+}
+.kode_team_fig .siderbar_categories p{
+	margin-bottom:15px;
+}
+.kode_team_fig .them_overlay:before{
+	opacity:0;
+}
+.kode_team_fig:hover .them_overlay:before{
+	opacity:0.35;
+	z-index:1;
+}
+.kode_view_row{
+	border-bottom:1px solid #e4e4e4;
+	padding-bottom:14px;
+	margin-bottom:37px;
+}
+.kode_view_des{
+	float:left;
+	width:auto;
+}
+.kode_view_des span{
+	text-transform:uppercase;
+}
+.kode_view_row .widget_social_icon {
+	float:right;
+	width:auto;
+	padding:13px 0px;
+}
+.kode_view_row .widget_social_icon li a{
+	border-color:#e6e6e6;
+	color:#a1a1a1;
+	height:30px;
+	width:30px;
+	line-height:30px;
+}
+.kode_view_text{
+	margin-bottom:41px;
+}
+.kode_view_text p{
+	margin-bottom:0px;
+}
+.kode_team_profile .kode_detail_date{
+	background:none;
+	padding:0px 0px;
+}
+.kode_team_profile .event_detail_list li a{
+	background-color:#f7f7f7;
+	width:320px;
+	padding:8px 20px;
+}
+.kode_team_profile  .event_detail_list li a span{
+	display:inline;
+}
+.kode_team_profile .sidebar_title.title_2{
+	margin-bottom:20px;
+}
+/*
+	=============================================
+			KODE TEAM WRAP END
+	=============================================
+*/
+/*
+	=============================================
+			GALLERY3 WRAP START
+	=============================================
+*/
+.kode_gallery3_fig,
+.kode_gallery3_row,
+.kode_gallery3_wrap{
+	float:left;
+	width:100%;
+}
+.kode_gallery3_des{
+	float:left;
+	width:33.7%;
+	margin-right:5px;
+}
+.kode_gallery3_fig.fig_2{
+	width:31.4%;
+	float:left;
+	margin-right:5px;
+}
+.kode_gallery3_des:nth-child(3) {
+    margin-right: 0;
+}
+.kode_gallery3_fig{
+	margin-bottom:5px;
+}
+.kode_donors_text .them_overlay:before,
+.kode_project_detail_fig .them_overlay:before,
+.kode_gallery3_fig .them_overlay:before{
+	opacity:0;
+}
+.kode_donors_text:hover .them_overlay:before,
+.kode_project_detail_fig:hover .them_overlay:before,
+.kode_gallery3_fig:hover .them_overlay:before{
+	opacity:0.5;
+	z-index:1;
+}
+.kode_gallery3_wrap .slick-prev,
+.kode_gallery3_wrap .slick-next{
+	height:38px;
+	width:38px;
+	background:none;
+	border:1px solid #cecece;
+	left:-55px;
+	border-radius:2px;
+}
+.kode_donors_list .slick-next,
+.kode_gallery3_wrap .slick-next{
+	left:auto;
+	right:-55px;
+}
+.kode_donors_list .slick-next:before,
+.kode_gallery3_wrap  .slick-next:before{
+	line-height:36px;
+	content:"\f061";
+}
+.kode_donors_list .slick-prev:before,
+.kode_gallery3_wrap .slick-prev:before{
+		content:"\f060";
+		line-height:36px;
+}
+.kode_donors_list .slick-dotted.slick-slider,
+.kode_gallery3_wrap .slick-dotted.slick-slider{
+	margin-bottom:0px;
+}
+/*
+	=============================================
+			GALLERY3 WRAP END
+	=============================================
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						TEAM DETAIL PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						PROJECT DETAIL PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.kode_donors_row,
+.kode_donors_text,
+.kode_donors_list,
+.kode_project_detail_fig,
+.kode_projet_detail_des,
+.kode_blog_detail_des.des_2 .kode_attorney_detail_skill,
+.kode_dollar_des{
+	float:left;
+	width:100%;
+}
+.kode_projet_detail_des,
+.kode_blog_detail_des.des_2{
+	border-bottom:1px solid #e3e3e3;
+}
+.kode_project_detail_fig,
+.kode_blog_detail_des.des_2{
+	padding-bottom:23px;
+}
+.kode_blog_detail_des.des_2  .kode_blog_detail_text{
+	border-bottom:none;
+	margin-bottom:0px;
+}
+.kode_blog_detail_des.des_2 .kode_attorney_detail_skill{
+	background-color: #f7f7f7;
+    padding:50px 30px 20px;
+	margin-bottom:25px;
+}
+.kode_dollar_des p{
+	margin-bottom:0px;
+	font-size:24px;
+	color:#333333;
+}
+.kode_dollar_des .full-left{
+	float:left;
+	width:auto;
+}
+.kode_dollar_des .full-right{
+	float:right;
+	width:auto;
+}
+.kode_attorney_detail_skill.project .label{
+	background:none;
+	top:-35px;
+	height:auto;
+	width:auto;
+	box-shadow:0px 0px;
+	border:none;
+	line-height:normal;
+	border-radius:0px;
+}
+.kode_attorney_detail_skill.project .progressbar{
+	box-shadow:0 0 5px -2px;
+	margin:0 auto 12px;
+}
+/*KODE PROJECT DETAIL DES START */
+.kode_projet_detail_des{
+	padding:30px 0px 31px;
+}
+.kode_projet_detail_des p:last-child{
+	margin-bottom:0px;
+}
+/*KODE DONORS LIST START */
+.kode_donors_list{
+	padding:27px 0px 30px;
+}
+.kode_donors_row {
+    padding: 0px 70px;
+}
+.kode_donors_text{
+	text-align:center;
+	padding:0px 20px;
+}
+.kode_donors_text figure{
+	width:auto;
+	border-radius:100%;
+	float:none;
+	margin-bottom:12px;
+}
+.kode_donors_text h5{
+	margin-bottom:5px;
+}
+.kode_donors_text  h6{
+	font-weight:bold;
+}
+/*KODE DONORS LIST START */
+.kode_donors_list .slick-prev,
+.kode_donors_list .slick-next{
+	height:40px;
+	width:40px;
+	background:none;
+	border:1px solid #cecece;
+	left:-70px;
+	border-radius:100%;
+}
+.kode_donors_list .slick-next{
+	right:-70px;
+	left:auto;
+}
+.kode_donors_list .slick-prev:before,
+.kode_donors_list .slick-next:before{
+	line-height:38px;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						PROJECT DETAIL PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						SERVICE DETAIL PAGE START
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+.accordion-section,
+.kode_service_faq,
+.kode_text_list li, 
+.kode_text_list,
+.kode_service_caption,
+.kode_service_detail_list{
+	float:left;
+	width:100%;
+}
+.kode_service_detail_list .kode_service_des span{
+	top:20px;
+	right:30px;
+	box-shadow:2px 0px 2px 1px #ddd;
+}
+.kode_service_detail_list{
+	padding-bottom:25px;
+	border-bottom:1px solid #e5e5e5;
+}
+.kode_service_detail_list p:last-child{
+	margin-bottom:0px;
+}
+.kode_service_caption{
+	padding:27px 0px 25px;
+	border-bottom:1px solid #e5e5e5;
+}
+.kode_service_caption .comment_title{
+	margin-bottom:19px;
+}
+.kode_service_caption > p{
+	margin-bottom:24px;
+}
+.kode_text_list li{
+	margin-bottom:6px;
+}
+.kode_service_caption > p:last-child,
+.kode_text_list li:last-child{
+	margin-bottom:0px;
+}
+.kode_text_list li a{
+	display:inline-block;
+	position:relative;
+	padding-left:30px;
+}
+.kode_text_list li a:before{
+	position:absolute;
+	content:"\f00c";
+	top:0px;
+	left:0px;
+	bottom:0px;
+	font-family:fontawesome;
+}
+.kode_service_caption .kode_detail_fig_text p{
+	margin-bottom:28px;
+}
+/* KODE SERVICE FAQ START */
+.kode_service_faq{
+	padding:27px 0px 50px;
+}
+.accordion-section{
+	background-color:#f6f6f6;
+	border-bottom:1px solid #e9e9e9;
+	padding:20px 30px;
+	position:relative;
+}
+.accordion-section h6 a{
+	display:block;
+	position:relative;
+	color:#666666;
+}
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding:15px;
+	display:none;
+}
+.accordion-section h6 a:before{
+	position:absolute;
+	content:"\f067";
+	top:0px;
+	right:30px;
+	bottom:0px;
+	color:#5e5e5e;
+	font-family:fontawesome;
+}
+.accordion-section h6 a:focus:before,
+.accordion-section h6 a:hover:before{
+	content:"\f068";
+}
+.accordion-section-content {
+	padding-top:10px;
+}
+.accordion-section-content p{
+	margin-bottom:0px;
+}
+/*
+	---------------------------------------------------------------------------
+	===========================================================================
+						SERVICE DETAIL PAGE END
+	===========================================================================
+	---------------------------------------------------------------------------
+*/
+
+.kode_portfolio_detail ul li:last-child,
+.kode_contact_service ul li:last-child,
+.kode_gallery_fig.fig_2:nth-child(4),
+.kode_gallery_fig.fig_2:nth-child(2),
+.kode_navi_icon  li:last-child,
+.widget_social_icon li:last-child,
+.product_icon li:last-child,
+.koed_event_timer figcaption ul li:last-child,
+.radio_points li:last-child,
+.kode_amount_list span:last-child,
+.kode_social_icon li:last-child,
+.navigation ul li:last-child,
+.top_icon_fig li:last-child{
+	margin-right:0px;
+}
+.header .navigation ul li:first-child,
+.top_time_circle ul li:first-child{
+	margin-left:0px;
+}
+.kode_donors_list .slick-prev:hover:before,
+.kode_donors_list .slick-next:hover:before,
+.kode_gallery3_wrap .slick-prev:hover:before,
+.kode_gallery3_wrap  .slick-next:hover:before,
+.kode_team_profile .event_detail_list li a:hover i,
+.kode_team_profile .event_detail_list li a:hover span,
+.kode_team_profile .event_detail_list li a:hover,
+.kode_view_row .widget_social_icon li a:hover,
+.kode_shop_fig  .shop_icon li a:hover,
+.kode_side_contact_text a,
+.kode_event_featured > a,
+.kode_service_form  .kode_textarea textarea:focus,
+.kode_service_form .kf_commet_field input:focus,
+.kode_service_form .section_hdg p,
+.kode_service_form .section_hdg h3,
+.kode_project_text  > span,
+.kode_portfolio_detail ul li a:focus,
+.kode_portfolio_detail ul li a.active,
+.kode_portfolio_detail ul li a:hover,
+.kode_contact_service ul li:hover .kode_contact_text p,
+.kode_contact_service ul li:hover .kode_contact_text > a,
+.kode_contact_service ul li:hover .kode_contact_text h5 a,
+.widget_event .kode_textarea textarea:focus,
+.widget_event .kf_commet_field input:focus,
+.kode_newsletter_form .kf_commet_field input:focus,
+.coming_social_icon  li a,
+.kode_coming_text .kode_search .kf_commet_field button,
+.kode_coming_text h2,
+.countdown.timer li h5,
+.countdown.timer li span,
+.kode_404_text p,
+.kode_404_text h2 span,
+.sidebar_add figcaption h4,
+.sidebar_add figcaption h2,
+.sidebar_add figcaption h3,
+.social_meta li a,
+.blog_quote span,
+.kode_search .comment-form .kf_commet_field button:hover,
+.kode_pagination a:hover,
+.kode_blog_des figure .expand_btn:hover,
+.kode_blog_des:hover .kode_blog_text .share_link,
+.kode_client_wrap.client_3 .slick-prev:before, 
+.kode_client_wrap.client_3 .slick-next:before,
+.kode_philosophy_text span,
+.kode_mosque_row.mosque figure a,
+.sab_banner_text a:hover span,
+.sab_banner_text h2,
+.kode_amount_list span:hover,
+.kode_pillars_item li a:hover h6,
+.kode_pillars_item li a:hover span,
+.navigation ul li .active,
+.navigation ul li a:hover,
+.widget_event.event_2 .kode_calender_list:hover > span,
+.kode_event_fig a,
+.kode_canvas_detail.canvas_2 > span,
+.kode_building_text p,
+.kode_building_text h3,
+.kode_building_text h4,
+.kode_banner_wrap.banner2 .slick-prev:before,
+.kode_banner_wrap.banner2 .slick-next:before,
+.kode_navi_icon  li a:hover,
+.donate_btn  button.close:hover,
+.kode_top2_icon .dropdown ul li a,
+.copyright_text p,
+.top_btn,
+.widget_event .kode_event_text h6 a,
+.widget_title,
+.widget_social_icon li a,
+.widget_call_info li a,
+.widget_logo p,
+.kode_newsletter_text  p,
+.kode_newsletter_text h5 a,
+.kode_product_list .slick-prev:before, 
+.kode_product_list .slick-next:before,
+.kode_product_list h6,
+.kode_product_list > h5,
+.kode_calender_list > span,
+.koed_event_timer figcaption ul li  p,
+.koed_event_timer figcaption ul li span,
+.kode_blog_fig .plus_icon:hover,
+.kode_canvas_detail .progress-bar div span,
+.kode_canvas_text h5,
+.kode_cause_text p,
+.kode_team_wrap .slick-prev:before,
+.kode_team_wrap .slick-next:before,
+.kode_social_icon li a,
+.kode_tem_fig figcaption p,
+.kode_tem_fig figcaption h4,
+.kode_gallery_fig a:hover,
+.kode_service_text  .right_arrow:hover,
+.kode_service_des:hover .kode_service_text span,
+.kode_mosque_item .koed_banner_btn .medium_btn:hover,
+.section_hdg.hdg_2 h3,
+.kode_mosque_fig figcaption h6 a,
+.drop_deta a,
+.kode_paly_text p,
+.kode_paly_text h6,
+.small_text,
+.mediume_text,
+.large_text,
+.top_time_circle ul li span,
+.top_time_circle ul li a{
+	color:#fff;
+}
+.kode_gallery3_fig:hover figure img,
+.kode_team_fig:hover figure img,
+.kode_side_contact_text a:hover i,
+.sidebar_add:hover figure img,
+.kode_calender_list:hover figure img,
+.kode_mosque_row.mosque figure:hover img, 
+.kode_pillars_item li a:hover span,
+.kode_event_fig:hover figure img,
+.koed_event_timer:hover figure img,
+.kode_blog_fig:hover figure img,
+.kode_gallery_fig:hover figure img,
+.kode_service_des:hover figure img,
+.kode_mosque_fig figure:hover img{
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+} 
+
+.top_icon_fig li a img:hover,
+.kode_building_des:hover figure img,
+.kode_tem_fig figure:hover img{
+	transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+.accordion-section h6,
+.kode_donors_text h5,
+.kode_view_des h3,
+.kode_shop_text h6,
+.kode_side_contact_text a,
+.kode_event_text.text_2 p,
+.kode_event_featured a,
+.kode_service_des .right_arrow.btn,
+.kode_pricing_dollar h3,
+.kode_pricing_des h4,
+.kode_project_text h5,
+.kode_project_dollar  a,
+.kode_project_text h4,
+.kode_portfolio_detail ul li a,
+.kode_portfolio_text h4,
+.kode_portfolio_text h6,
+.kode_event_speaker_text h6,
+.kode_coming_event_text h5,
+.event_studium,
+.kode_event_detail .kode_calender_list .kode_event_text h4,
+.kode_contact_text h5,
+.kode_coming_text .kode_search .kf_commet_field button,
+.kode_404_text h3,
+.sidebar_add figcaption h5,
+.sidebar_add figcaption h4,
+.sidebar_add figcaption h2,
+.sidebar_add figcaption h3,
+.comment_title,
+.kode_social_share a,
+.kode_blog_detail_text h3,
+.kode_pagination .next,
+.kode_pagination .prve,
+.kode_blog_text h4,
+.kode_calender_detail.detail_2 .kode_event_text h4,
+.kode_philosophy_text h4,
+.sab_banner_text h2,
+.kode_calender_detail.detail_2 .kode_event_text,
+.kode_canvas_detail.canvas_2 > span ,
+.kode_building_text h3,
+.kode_building_text h4,
+.widget_title,
+.kode_newsletter_text h5,
+.kode_product_list > h5,
+.kode_product_list h6,
+.kode_event_text h6,
+.koed_event_timer figcaption ul li  p,
+.koed_event_timer figcaption h5,
+.kode_blog_text h5,
+.checkbox_radio label,
+.kode_donation_row h4,
+.kode_doantion_amount h4,
+.kode_canvas_text h5,
+.kode_tem_fig figcaption h4,
+.kode_pray_text h5,
+.kode_pray_text h2,
+.kode_service_text h4,
+.kode_pillars_item li a h6,
+.kode_pillars_text h4,
+.kode_counter_mosque li h6,
+.section_hdg h3,
+.kode_mosque_fig figcaption h6,
+.large_text,
+.navigation ul li ul li a,
+.navigation > ul > li > a,
+.top_time_circle ul li span,
+.top_time_circle ul li a{
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity:0.96;
+}
+#cp-rider-boxed .overlay {
+	background: rgba(255,207,0,0.80);
+}
+#cp-rider-repair .overlay {
+	background: rgba(240,80,80,0.95);
+}
+#cp-rider-store .overlay {
+	background: rgba(145,201,218,0.90);
+}
+.overlay .overlay-close {
+	background: #000000 url("images/images.png") no-repeat scroll center center;
+    border: medium none;
+    border-radius: 100%;
+    color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 40px;
+    outline: medium none;
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    text-indent: 200%;
+    top: 20px;
+    transition: transform 1s ease 0s;
+    width: 40px;
+    z-index: 100;
+}
+.overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+.overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	min-height: 54px;
+}
+.overlay ul li a {
+	font-size: 54px;
+	font-weight: 300;
+	display: block;
+	color: #fff;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+.overlay ul li a:hover, .overlay ul li a:focus {
+	color: #f0f0f0;
+}
+.overlay-contentscale {
+	visibility:hidden;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+	transition: transform 0.5s, visibility 0s 0.5s;
+}
+.overlay-contentscale.open {
+	visibility:visible;
+	overflow:visible;
+	-webkit-transform: translateY(0%);
+	transform:translateY(0%);
+	-webkit-transition:-webkit-transform 0.5s;
+	transition:transform 1s;
+	z-index:99999;
+}
+.cp-search-holder #trigger-overlay {
+	background-color: transparent;
+	border: none;
+	padding:0px;
+}
+.cp-search-inner {
+	width: 750px;
+	margin: 0 auto;
+	padding-top: 330px;
+}
+.cp-search-inner form {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.cp-search-inner form input[type="text"] {
+	font-size: 14px;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	padding: 0;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+#trigger-overlay{
+	vertical-align:text-bottom;
+	font-size:18px;
+	cursor:pointer;
+}
+.cp-search-inner form .submit {
+	font-size: 18px;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: inline-block;
+	background-color: transparent;
+	border: none;
+}
+.cp-search-holder {
+    border-radius: 0;
+    color: #000000;
+    float: left;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    width: 25px;
+}
+.kode_search_overlay {
+    float: left;
+    width: auto;
+}

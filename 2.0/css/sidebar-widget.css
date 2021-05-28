@@ -1,0 +1,269 @@
+/*
+	=======================================
+		SIDEBAR WIDGET START
+	=======================================
+*/
+.categories_detail li,
+.categories_detail,
+.sidebar_title,
+.siderbar_categories,
+.kode_search,
+.sidebar-widget{
+	float:left;
+	width:100%;
+}
+.kode_search .kf_commet_field{
+	margin-bottom:0px;
+}
+.kode_search .comment-form .kf_commet_field{
+	position:relative;
+}
+.kode_search .comment-form .kf_commet_field button{
+	display: inline-block;
+    height: 44px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 0;
+    width: 48px;
+	background:none;
+	border-left:1px solid #e9e9e9;
+}
+/* SIDEBAR CATEGORIES START */
+.siderbar_categories{
+	padding:27px 30px 30px;
+	background-color:#fff;
+}
+.sidebar_title{
+	position:relative;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:30px;
+	padding-bottom:7px;
+	position:relative;
+}
+.sidebar_title:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-bottom:2px solid;
+	width:80px;
+}
+.categories_detail{
+	margin-top:-5px;
+}
+.categories_detail li{
+	border-bottom:1px solid #e5e5e5;
+}
+.categories_detail li a{
+	display:block;
+	padding:9px 0px;
+}
+.siderbar_categories.recent_news .kode_calender_detail li:first-child,
+.categories_detail li:first-child a{
+	padding-top:0px;
+}
+.categories_detail li a:hover{
+	padding-left:10px;
+}
+
+/* SIDEBAR CATEGORIES  RECENT NEWS START */
+.siderbar_categories.recent_news .kode_calender_detail{
+	padding:0px 0px;
+	background:none;
+}
+.siderbar_categories.recent_news .kode_calender_detail li:last-child{
+	padding-bottom:0px;
+}
+.kode_calender_list figure{
+	float:left;
+	width:auto;
+}
+.kode_calender_list .them_overlay:before{
+	opacity:0;
+	z-index:9;
+}
+.kode_calender_list:hover .them_overlay:before{
+	opacity:0.35;
+}
+.siderbar_categories.recent_news .kode_event_text{
+	padding-left:15px;
+}
+/* SIDEBAR ADD START */
+.sidebar_add{
+	float:left;
+	width:100%;
+}
+.sidebar_add .them_overlay:before{
+	z-index:9;
+}
+.sidebar_add figcaption{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	padding:50px 0px;
+	z-index:10;
+}
+.sidebar_add figcaption h5,
+.sidebar_add figcaption h2,
+.sidebar_add figcaption h3{
+	margin-bottom:10px;
+}
+.sidebar_add figcaption h4{
+	margin-bottom:8px;
+}
+/* SIDEBAR ADD START */
+.siderbar_categories.archive .categories_detail  li a{
+	position:relative;
+}
+.siderbar_categories.archive .categories_detail  li a:before{
+	 bottom: 0;
+    color: #a1a1a1;
+    content: "\f105";
+    font-family: fontAwesome;
+    margin-top: -12px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.siderbar_categories.archive .categories_detail  li a:hover:before{
+	right:5px;
+}
+/* KODE COMING EVENT START */
+.kode_coming_event_text,
+.kode_coming_fig,
+.kode_coming_event{
+	float:left;
+	width:100%;
+}
+.kode_coming_fig{
+	text-align:center;
+}
+.kode_coming_event_text{
+	padding:17px 0px 48px;
+}
+.kode_coming_event_text h5{
+	margin-bottom:6px;
+}
+.kode_coming_event_text > a{
+	display:inline-block;
+	text-transform:uppercase;
+}
+.kode_coming_event_text > a i{
+	margin-right:18px;
+}
+/* slick slider start */
+.kode_coming_event .slick-prev, 
+.kode_coming_event .slick-next{
+	display:none !important;
+}
+.kode_coming_event  .slick-dots li {
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 0 3px;
+    padding: 0;
+    position: relative;
+    width: 10px;
+	border-radius:100%;
+	background-color:#333333;
+	line-height:10px;
+}
+.kode_coming_event .slick-dots li button{
+	line-height:10px;
+	padding:0px 0px;
+	height:10px;
+	width:10px;
+}
+.kode_coming_event .slick-dots li button:before{
+	content:"";
+}
+.kode_coming_event .slick-dotted.slick-slider{
+	margin-bottom:0px;
+}
+.kode_coming_event .slick-dots{
+	bottom:22px;
+}
+/* slick slider start */
+
+/* kode event featured start */
+.kode_event_featured{
+	float:left;
+	width:100%;
+	margin-bottom:1px;
+}
+.kode_event_featured > a{
+	display:inline-block;
+	padding:3px 6px 5px;
+	float:left;
+	border-radius:2px;
+	font-size:14px;
+	line-height:14px;
+}
+.event_rating{
+	float:right;
+	width:auto;
+}
+.event_rating a{
+	color:#ffcc01;
+	display:inline-block;
+}
+.kode_event_text.text_2 p{
+	margin-bottom:0px;
+	font-weight:400;
+	font-size:14px;
+}
+.kode_event_text.text_2 p a{
+	color:#333;
+}
+/* kode side contact start */
+.kode_photo_gallery, 
+.kode_photostream,
+.kode_side_contact_text{
+	float:left;
+	width:100%;
+}
+.kode_side_contact_text p{
+	margin-bottom:24px;
+	font-style:italic;
+}
+.kode_side_contact_text a{
+	display:block;
+	overflow:hidden;
+}
+.kode_side_contact_text a i{
+	height:46px;
+	width:60px;
+	text-align:center;
+	line-height:46px;
+	border-right:1px solid #b28237;
+	margin-right:15px;
+}
+/* KODE PHOTOSTREAM START*/
+.kode_photo_gallery li{
+	float:left;
+	width:auto;
+	margin:0px 10px 10px 0px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.kode_photo_gallery li:hover img{
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+.kode_photo_gallery .them_overlay:before{
+	opacity:0;
+}
+.kode_photo_gallery .them_overlay:hover:before{
+	opacity:0.5;
+	z-index:1;
+}
+
+.categories_detail li a span{
+	float:right;
+}
