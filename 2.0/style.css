@@ -814,8 +814,8 @@
 	=======================================
 */
 .service_btn,
-.kode_service_text,
-.kode_service_des,
+.service_text,
+.service_des,
 .kode_services_wrap{
 	float:left;
 	width:100%;
@@ -823,21 +823,21 @@
 .kode_services_wrap{
 	padding:80px 0px;
 }
-.kode_service_des{
+.service_des{
 	margin-bottom:30px;
 }
-.kode_service_des:hover{
+.service_des:hover{
 	box-shadow:0px 0px 7px 0px;
 	margin-bottom:30px;
 }
-.kode_service_des:hover figure img{
+.service_des:hover figure img{
 	opacity:0.8;
 }
-.kode_service_text{
+.service_text{
 	padding:42px 30px 24px;
 	position:relative;
 }
-.kode_service_text span{
+.service_text span{
 	height:80px;
 	width:80px;
 	text-align:center;
@@ -850,16 +850,16 @@
 	position:absolute;
 	top:-50px;
 }
-.kode_service_text h4{
+.service_text h4{
 	margin-bottom:7px;
 }
-.kode_service_text  p{
+.service_text  p{
 	margin-bottom:0px;
 }
-.kode_service_text  p i{
+.service_text  p i{
 	margin-right:10px;
 }
-.kode_service_text  .right_arrow{
+.service_text  .right_arrow{
 	position:absolute;
 	top:50%;
 	right:10px;
@@ -872,7 +872,7 @@
 	margin-top:-15px;
 	opacity:0;
 }
-.kode_service_des:hover .kode_service_text  .right_arrow{
+.service_des:hover .service_text  .right_arrow{
 	right:30px;
 	opacity:1;
 }
@@ -4204,7 +4204,7 @@
 	===========================================================================
 	---------------------------------------------------------------------------
 */
-.kode_service_des .right_arrow.btn{
+.service_des .right_arrow.btn{
 	border: medium none;
     height: auto;
     opacity: 1;
@@ -4213,14 +4213,14 @@
     width: auto;
 	color:#333333;
 }
-.kode_service_des .right_arrow.btn i{
+.service_des .right_arrow.btn i{
 	margin-left:10px;
 }
-.kode_service_des:hover .right_arrow.btn{
+.service_des:hover .right_arrow.btn{
 	opacity:1;
 	background:none;
 }
-.kode_blog_madium_wrap.detail .kode_service_des{
+.kode_blog_madium_wrap.detail .service_des{
 	border:1px solid #ececec;
 }
 /*
@@ -4628,7 +4628,7 @@
 	float:left;
 	width:100%;
 }
-.kode_service_detail_list .kode_service_des span{
+.kode_service_detail_list .service_des span{
 	top:20px;
 	right:30px;
 	box-shadow:2px 0px 2px 1px #ddd;
@@ -4828,8 +4828,8 @@
 .kode_tem_fig figcaption p,
 .kode_tem_fig figcaption h4,
 .kode_gallery_fig a:hover,
-.kode_service_text  .right_arrow:hover,
-.kode_service_des:hover .kode_service_text span,
+.service_text  .right_arrow:hover,
+.service_des:hover .service_text span,
 .kode_mosque_item .koed_banner_btn .medium_btn:hover,
 .section_hdg.hdg_2 h3,
 .kode_mosque_fig figcaption h6 a,
@@ -4854,7 +4854,7 @@
 .koed_event_timer:hover figure img,
 .kode_blog_fig:hover figure img,
 .kode_gallery_fig:hover figure img,
-.kode_service_des:hover figure img,
+.service_des:hover figure img,
 .kode_mosque_fig figure:hover img{
 	transform:scale(1.2);
 	-moz-transform:scale(1.2);
@@ -4875,7 +4875,7 @@
 .kode_side_contact_text a,
 .kode_event_text.text_2 p,
 .kode_event_featured a,
-.kode_service_des .right_arrow.btn,
+.service_des .right_arrow.btn,
 .kode_pricing_dollar h3,
 .kode_pricing_des h4,
 .kode_project_text h5,
@@ -4923,7 +4923,7 @@
 .kode_tem_fig figcaption h4,
 .kode_pray_text h5,
 .kode_pray_text h2,
-.kode_service_text h4,
+.service_text h4,
 .kode_pillars_item li a h6,
 .kode_pillars_text h4,
 .kode_counter_mosque li h6,
