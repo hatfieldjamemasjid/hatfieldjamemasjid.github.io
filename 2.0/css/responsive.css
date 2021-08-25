@@ -40,7 +40,7 @@
 	.widget_social_icon li {
 		margin-right: 7px;
 	}
-	.kode_service_text .right_arrow{
+	.service_text .right_arrow{
 		margin-top:-25px;
 	}
 	.kode_amount_list span{
@@ -338,7 +338,7 @@
 		padding: 20px 30px 20px;
 	}
 	/* service page start */
-	.kode_service_text h4{
+	.service_text h4{
 		font-size:16px;
 	}
 	/* service 01 page start */
@@ -484,20 +484,20 @@
 		left:-143px;
 		right:-155px;
 	}
-	.kode_service_text h4{
+	.service_text h4{
 		font-size:14px;
 	}
-	.kode_service_text {
+	.service_text {
 		padding: 42px 13px 24px;
 		position: relative;
 	}
-	.kode_service_text .right_arrow{
+	.service_text .right_arrow{
 		margin-top:-25px;
 	}
-	.kode_service_text p{
+	.service_text p{
 		font-size:12px;
 	}
-	.kode_service_des:hover .kode_service_text .right_arrow{
+	.service_des:hover .service_text .right_arrow{
 		right:20px;
 	}
 	.kode_pray_wrap .col-md-5{
@@ -888,10 +888,10 @@
 	.kode_blog_madium_wrap.detail.width_res .col-md-4{
 		width:33.3%;
 	}
-	.kode_blog_madium_wrap.detail.width_res .kode_service_text .right_arrow {
+	.kode_blog_madium_wrap.detail.width_res .service_text .right_arrow {
 		margin-top: -35px;
 	}
-	.kode_blog_madium_wrap.detail.width_res .kode_service_text p {
+	.kode_blog_madium_wrap.detail.width_res .service_text p {
 		font-size: 11px;
 	}
 	/* service 01 page start */
@@ -2016,7 +2016,7 @@
 		float: left;
 		width: 100%;
 	}
-	.kode_blog_madium_wrap.detail.width_res .kode_service_text .right_arrow {
+	.kode_blog_madium_wrap.detail.width_res .service_text .right_arrow {
 		margin-top: -15px;
 	}
 	/* service 01 page start */
@@ -2024,15 +2024,15 @@
 		padding: 75px 30px 80px;
 	}
 	/* service 02 page start */
-	.kode_service_des .right_arrow.btn{
+	.service_des .right_arrow.btn{
 		font-size:14px;
 		right:10px;
 	}
-	.kode_service_text .right_arrow {
+	.service_text .right_arrow {
 		margin-top: -21px;
 	}
 	/* service detail page start */
-	.kode_service_detail_list .kode_service_des span {
+	.kode_service_detail_list .service_des span {
 		right: 10px;
 	}
 	.kode_text_list li {
