@@ -1,594 +1,301 @@
 <!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<meta charset="utf-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<title>HOME PAGE</title>
-			<!--BOOTSTRAP CSS-->
-			<link href="css/bootstrap.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/font-awesome.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/slick.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/jquery.bxslider.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/audio.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/prettyphoto.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/demo-page.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/component.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/hover.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/jQuery-plugin-progressbar.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/chosen.min.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/animate.css" rel="stylesheet">
-			<!--fontawseme CSS-->
-			<link href="css/slick-theme.css" rel="stylesheet">
-			<!--THEME TYPO CSS-->
-			<link href="css/typography.css" rel="stylesheet">
-			<!--THEME TYPO CSS-->
-			<link href="css/shotcode.css" rel="stylesheet">
-			<!--THEME TYPO CSS-->
-			<link rel="stylesheet" href="style.css">
-			<!--svg-icon CSS-->
-			<link rel="stylesheet" href="svg-icon.css">
-			<!--COLOR CSS-->
-			<link rel="stylesheet" href="css/color.css">
-			<!--COLOR CSS-->
-			<link rel="stylesheet" href="css/responsive.css">
-		</head>
-		<body>
-			<!--WRAPER START-->
-			<div class="wraper">
-				<header>
-					<!--KODE TOP WRAP START-->
-					<div class="kode_top_wrap">
-						<!--CONTAINER START-->
-						<div class="container">
-							<!--ROW START-->
-							<div class="row">
-								<div class="col-md-6">
-									<!--KODE TOP INFO START-->
-									<div class="kode_top_info">
-										<ul>
-											<li><a href="#"><i class="fa fa-envelope"></i>hatfieldjamemasjid@yahoo.com</a></li>
-											<li><a href="#"><i class="fa icon-technology"></i>+1 215-362-5771</a></li>
-										</ul>
-									</div>
-									<!--KODE TOP INFO END-->
-								</div>
-								<div class="col-md-6">
-									<div class="kode_top_right_text">
-										<ul class="top_icon_fig">
-											<li><a href="https://www.facebook.com/hatfieldjamemasjid" target='new'><img src="images/icon-img.png" alt=""></a></li>
-											<!-- <li><a href="#"><img src="images/icon-img1.png" alt=""></a></li>
-											<li><a href="#"><img src="images/icon-img2.png" alt=""></a></li>
-											<li><a href="#"><img src="images/icon-img3.png" alt=""></a></li> -->
-										</ul>
-										<form method="post" id="commentform" class="comment-form">
-											<div class="kf_commet_field">
-												<input placeholder="Your Keyword" name="author" type="text" value="" data-default="Name*" required>
-												<button><i class="fa fa-search"></i></button>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-							<!--ROW END-->
-						</div>
-						<!--CONTAINER END-->
-					</div>
-					<!--KODE TOP WRAP END-->
-					
-					<!--KODE TOP LOGO WRAP START-->
-					<div class="kode_top_logo_wrap them_overlay">
-						<!--CONTAINER START-->	
-						<div class="container">
-							<div class="top_logo">
-								<h1><a href="#"><img src="images/hatfieldmasjid.png" alt="kodeforest"></a></h1>
-							</div>
-							<div class="top_time_circle">
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>EVENTS PAGE</title>
+	<!--BOOTSTRAP CSS-->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/slick.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/audio.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/prettyphoto.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/demo-page.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/component.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/hover.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/jQuery-plugin-progressbar.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/chosen.min.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/animate.css" rel="stylesheet">
+	<!--fontawseme CSS-->
+	<link href="css/slick-theme.css" rel="stylesheet">
+	<!--THEME TYPO CSS-->
+	<link href="css/typography.css" rel="stylesheet">
+	<!--THEME TYPO CSS-->
+	<link href="css/shotcode.css" rel="stylesheet">
+	<!--THEME TYPO CSS-->
+	<link rel="stylesheet" href="style.css">
+	<!--svg-icon CSS-->
+	<link rel="stylesheet" href="svg-icon.css">
+	<!--COLOR CSS-->
+	<link rel="stylesheet" href="css/color.css">
+	<!--COLOR CSS-->
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+	<!--WRAPER START-->
+	<div class="wraper">
+		<header>
+			<!--KODE TOP WRAP START-->
+			<div class="kode_top_wrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="kode_top_info">
 								<ul>
-									<li><a href="#">Fajr</a><span>5:45 AM</span></li>
-									<li><a href="#">Dhur</a><span>1:30 PM</span></li>
-									<li><a href="#">Asr</a><span>6:00 PM</span></li>
-									<li><a href="https://www.islamicfinder.org/world/united-states/5192878/hatfield-prayer-times/" target="_blank" rel="noopener noreferrer">Maghrib<span>*Sunset</span></a></li>
-									<li><a href="#">Isha</a><span>9:15 PM</span></li>
+									<li><a href="#"><i class="fa fa-envelope"></i>hatfieldjamemasjid@yahoo.com</a></li>
+									<li><a href="#"><i class="fa icon-technology"></i>+1 215-362-5771</a></li>
 								</ul>
 							</div>
 						</div>
-						<!--CONTAINER END-->
-					</div>
-					<!--KODE TOP LOGO WRAP END-->
-					
-					<!--KODE NAVIGATION WRAP START-->
-					<div class="kode_navigation_wrap">
-						<!--CONTAINER START-->	
-						<div class="container">
-							<div class="navigation">
-								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="event.html">Events</a></li>
-									<!-- <li><a class="active" href="#"s>Home</a>
-										<ul class="kode">
-											<li><a href="index.html">DEFULT HOME</a></li>
-											<li><a href="index-1.html">Home page 02</a></li>
-										</ul>
-									</li> -->
-<!--									<li><a href="about-us.html">About Us</a></li>-->
-									<!-- <li><a href="#">Services</a>
-										<ul class="kode">
-											<li><a href="service.html">service</a></li>
-											<li><a href="service-01.html">service 01</a></li>
-											<li><a href="service02.html">service 02</a></li>
-											<li><a href="service-detail.html">service detail</a></li>
-											<li><a href="service-sidebar.html">service sidebar</a></li>
-										</ul>
-									</li> -->
-									<!-- <li><a href="#">Projects</a>
-										<ul class="kode">
-											<li><a href="project.html">project</a></li>
-											<li><a href="project-01.html">project 01</a></li>
-											<li><a href="project-list.html">project list</a></li>
-											<li><a href="project-detail.html">project detail</a></li>
-										</ul>
-									</li> -->
-									<!-- <li><a href="#">blog</a>
-										<ul class="kode">
-											<li><a href="blog.html">blog</a></li>
-											<li><a href="blog01.html">blog 01</a></li>
-											<li><a href="blog-detail.html">blog detail</a></li>
-											<li><a href="blog-sidebar.html">blog sidebar</a></li>
-										</ul>
-									</li> -->
-									<!-- <li><a href="#">portfolio</a>
-										<ul class="kode">
-											<li><a href="portfolio.html">portfolio</a></li>
-											<li><a href="portfolio-01.html">portfolio 01</a></li>
-											<li><a href="portfolio-02.html">portfolio 02</a></li>
-											<li><a href="portfolio-detail.html">portfolio detail</a></li>
-										</ul>
-									</li> -->
-									<!-- <li><a href="#">Pages</a>
-										<ul class="kode">
-											<li><a href="event.html">event</a></li>
-											<li><a href="404.html">404 page</a></li>
-											<li><a href="shop.html">shop page</a></li>
-											<li><a href="coming-soon.html">coming soon</a></li>
-											<li><a href="event-detail.html">event detail</a></li>
-											<li><a href="event-sidebar.html">event sidebar</a></li>
-											<li><a href="team-detail.html">team detail</a></li>
-										</ul> 
-									</li> -->
-<!--									<li><a href="contact-us.html">Contact</a></li>-->
+						<div class="col-md-6">
+							<div class="kode_top_right_text">
+								<ul class="top_icon_fig">
+									<li><a href="https://www.facebook.com/hatfieldjamemasjid" target='new'><img
+												src="images/icon-img.png" alt=""></a></li>
 								</ul>
-								<!--DL Menu Start-->
-								<div id="kode-responsive-navigation" class="dl-menuwrapper">
-									<button class="dl-trigger">Open Menu</button>
-									<ul class="dl-menu">
-										<!-- <li><a class="active" href="#">Home</a>
-											<ul class="dl-submenu">
-												<li><a href="index.html">DEFULT HOME</a></li>
-												<li><a href="index-1.html">Home page 02</a></li>
-											</ul>
-										</li> -->
-										<li class="menu-item kode-parent-menu"><a href="index.html">Home</a></li>
-										<li class="menu-item kode-parent-menu"><a href="event.html">Events</a></li>
-										<!-- <li class="menu-item kode-parent-menu"><a href="about-us.html">About Us</a></li> -->
-										<!-- <li class="menu-item kode-parent-menu"><a href="#">Services</a>
-											<ul class="dl-submenu">
-												<li><a href="service.html">service</a></li>
-												<li><a href="service-01.html">service 01</a></li>
-												<li><a href="service02.html">service 02</a></li>
-												<li><a href="service-detail.html">service detail</a></li>
-												<li><a href="service-sidebar.html">service sidebar</a></li>
-											</ul>
-										</li> -->
-										<!-- <li class="menu-item kode-parent-menu"><a href="#">Projects</a>
-											<ul class="dl-submenu">
-												<li><a href="project.html">project</a></li>
-												<li><a href="project-01.html">project 01</a></li>
-												<li><a href="project-list.html">project list</a></li>
-												<li><a href="project-detail.html">project detail</a></li>
-											</ul>
-										</li> -->
-										<!-- <li class="menu-item kode-parent-menu"><a href="#">blog</a>
-											<ul class="dl-submenu">
-												<li><a href="blog.html">blog</a></li>
-												<li><a href="blog01.html">blog 01</a></li>
-												<li><a href="blog-detail.html">blog detail</a></li>
-												<li><a href="blog-sidebar.html">blog sidebar</a></li>
-											</ul>
-										</li> -->
-										<!-- <li class="menu-item kode-parent-menu"><a href="#">portfolio</a>
-											<ul class="dl-submenu">
-												<li><a href="portfolio.html">portfolio</a></li>
-												<li><a href="portfolio-01.html">portfolio 01</a></li>
-												<li><a href="portfolio-02.html">portfolio 02</a></li>
-												<li><a href="portfolio-detail.html">portfolio detail</a></li>
-											</ul>
-										</li> -->
-										<!-- <li class="menu-item kode-parent-menu"><a href="#">Pages</a>
-											<ul class="dl-submenu">
-												<li><a href="event.html">event</a></li>
-												<li><a href="404.html">404 page</a></li>
-												<li><a href="shop.html">shop page</a></li>
-												<li><a href="coming-soon.html">coming soon</a></li>
-												<li><a href="event-detail.html">event detail</a></li>
-												<li><a href="event-sidebar.html">event sidebar</a></li>
-												<li><a href="team-detail.html">team detail</a></li>
-											</ul>
-										</li> -->
-										<!-- <li><a href="contact-us.html">contact Us</a></li> -->
-									</ul>
-								</div>
-							<!--DL Menu END-->
+								<form method="post" id="commentform" class="comment-form">
+									<div class="kf_commet_field">
+										<input placeholder="Your Keyword" name="author" type="text" value=""
+											data-default="Name*" required>
+										<button><i class="fa fa-search"></i></button>
+									</div>
+								</form>
 							</div>
 						</div>
-						<!--CONTAINER END-->
 					</div>
-					<!--KODE NAVIGATION WRAP END-->
-				</header> 
-				
-				<!--KODE EVENT WRAP START-->
-				<div class="kode_event_wrap">
-					<!--CONTAINER START-->
-					<div class="container">
-						<div class="kode_event_detail">
-							<ul>
-								<li>
-									<div class="event_date">
-										<span>27</span>
-										<p>April - 2017</p>
-									</div>
-									<div class="kode_calender_list">
-										<figure class="them_overlay">
-											<img src="extra-images/event.jpg" alt="">
-										</figure>
-										<div class="kode_event_text">
-											<h4><a href="#">Protest Against Hijab law</a></h4>
-											<p><span>There are many variations of. There are many vari</span>ations of passages...</p>
-											<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a href="#">Adults</a></span>
-										</div>
-									</div>
-									<div class="kode_event_ticket">
-										<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium Singapore</a>
-										<a  class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
-									</div>
-								</li>
-								<li>
-									<div class="event_date">
-										<span>28</span>
-										<p>April - 2013</p>
-									</div>
-									<div class="kode_calender_list">
-										<figure class="them_overlay">
-											<img src="extra-images/event1.jpg" alt="">
-										</figure>
-										<div class="kode_event_text">
-											<h4><a href="#">Protest Against Hijab law</a></h4>
-											<p><span>There are many variations of. There are many vari</span>ations of passages...</p>
-											<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a href="#">Adults</a></span>
-										</div>
-									</div>
-									<div class="kode_event_ticket">
-										<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium Singapore</a>
-										<a  class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
-									</div>
-								</li>
-								<li>
-									<div class="event_date">
-										<span>29</span>
-										<p>April - 2014</p>
-									</div>
-									<div class="kode_calender_list">
-										<figure class="them_overlay">
-											<img src="extra-images/event2.jpg" alt="">
-										</figure>
-										<div class="kode_event_text">
-											<h4><a href="#">Protest Against Hijab law</a></h4>
-											<p><span>There are many variations of. There are many vari</span>ations of passages...</p>
-											<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a href="#">Adults</a></span>
-										</div>
-									</div>
-									<div class="kode_event_ticket">
-										<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium Singapore</a>
-										<a  class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
-									</div>
-								</li>
-								<li>
-									<div class="event_date">
-										<span>30</span>
-										<p>April - 2016</p>
-									</div>
-									<div class="kode_calender_list">
-										<figure class="them_overlay">
-											<img src="extra-images/event3.jpg" alt="">
-										</figure>
-										<div class="kode_event_text">
-											<h4><a href="#">Protest Against Hijab law</a></h4>
-											<p><span>There are many variations of. There are many vari</span>ations of passages...</p>
-											<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a href="#">Adults</a></span>
-										</div>
-									</div>
-									<div class="kode_event_ticket">
-										<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium Singapore</a>
-										<a  class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
-									</div>
-								</li>
-								<li>
-									<div class="event_date">
-										<span>22</span>
-										<p>April - 2017</p>
-									</div>
-									<div class="kode_calender_list">
-										<figure class="them_overlay">
-											<img src="extra-images/event4.jpg" alt="">
-										</figure>
-										<div class="kode_event_text">
-											<h4><a href="#">Protest Against Hijab law</a></h4>
-											<p><span>There are many variations of. There are many vari</span>ations of passages...</p>
-											<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a href="#">Adults</a></span>
-										</div>
-									</div>
-									<div class="kode_event_ticket">
-										<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium Singapore</a>
-										<a  class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
-									</div>
-								</li>
-								<li>
-									<div class="event_date">
-										<span>20</span>
-										<p>April - 2014</p>
-									</div>
-									<div class="kode_calender_list">
-										<figure class="them_overlay">
-											<img src="extra-images/event5.jpg" alt="">
-										</figure>
-										<div class="kode_event_text">
-											<h4><a href="#">Protest Against Hijab law</a></h4>
-											<p><span>There are many variations of. There are many vari</span>ations of passages...</p>
-											<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a href="#">Adults</a></span>
-										</div>
-									</div>
-									<div class="kode_event_ticket">
-										<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium Singapore</a>
-										<a  class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
-									</div>
-								</li>
-								<li>
-									<div class="event_date">
-										<span>12</span>
-										<p>April - 2015</p>
-									</div>
-									<div class="kode_calender_list">
-										<figure class="them_overlay">
-											<img src="extra-images/event6.jpg" alt="">
-										</figure>
-										<div class="kode_event_text">
-											<h4><a href="#">Protest Against Hijab law</a></h4>
-											<p><span>There are many variations of. There are many vari</span>ations of passages...</p>
-											<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a href="#">Adults</a></span>
-										</div>
-									</div>
-									<div class="kode_event_ticket">
-										<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium Singapore</a>
-										<a  class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
-									</div>
-								</li>
-								<li>
-									<div class="event_date">
-										<span>04</span>
-										<p>April - 2016</p>
-									</div>
-									<div class="kode_calender_list">
-										<figure class="them_overlay">
-											<img src="extra-images/event7.jpg" alt="">
-										</figure>
-										<div class="kode_event_text">
-											<h4><a href="#">Protest Against Hijab law</a></h4>
-											<p><span>There are many variations of. There are many vari</span>ations of passages...</p>
-											<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a href="#">Adults</a></span>
-										</div>
-									</div>
-									<div class="kode_event_ticket">
-										<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium Singapore</a>
-										<a  class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<!--KODE PAGINATION LIST START-->
-						<div class="kode_pagination_list navi_2">
-							<ul class="kode_pagination">
-								<li><a class="prve" href="#"><i class="fa fa-arrow-left"></i>Previous</a></li>
-								<li><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a class="next" href="#">Next<i class="fa fa-arrow-right"></i></a></li>
-							</ul>
-						</div>
-						<!--KODE PAGINATION LIST END-->
-					</div>
-					<!--CONTAINER END-->
 				</div>
-				<!--KODE EVENT WRAP END-->
-				
-				<!--KODE NEWSLETTER WRAP START-->
-				<div class="kode_newsletter_wrap">
-					<!--CONTAINER START-->	
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="kode_newsletter_des">
-									<span><i class="fa fa-envelope"></i></span>
-									<div class="kode_newsletter_text">
-										<h5><a href="#">Newsletter Sign Up</a></h5>
-										<p>For Latest Updates & For Majalis</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="kode_newsletter_form">
-									<form>
-										<div class="kf_commet_field">
-											<input placeholder="Enter Your Email" name="url" type="text" value="" data-default="Website" size="30" required>
-											<button class="medium_btn background-bg-dark">Submit</button>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--CONTAINER END-->
-				</div>
-				<!--KODE NEWSLETTER WRAP END-->
-				
-				<footer>
-					<!--WIDGET WRAP START-->
-					<div class="widget_wrap them_overlay">
-						<!--CONTAINER START-->
-						<div class="container">
-							<div class="row">
-								<div class="col-md-4"></div>
-								<div class="col-md-4">
-									<div class="widget_logo">
-
-										<a href="#"><img src="images/footer-logo.png" alt=""></a>
-										<p>There are many variations of passages of Lorem Ipsum availableThere are many variations of passages of Lorem Ipsum available...</p>
-										<ul class="widget_call_info">
-											<li>
-												<a href="https://goo.gl/maps/q5XquduhZFy7GTt96" target="_blank" rel="noopener noreferrer">
-													<i class="fa fa-map-marker"></i>1511 Cowpath Rd, Hatfield, PA 19440
-												</a>
-											</li>
-											<li>
-												<a href="tel:+1215-362-5771">
-													<i class="fa fa-phone"></i>+1 215 362 5771
-												</a>
-											</li>
-											<li>
-												<a href="mailto: hatfieldjamemasjid@yahoo.com">
-													<i class="fa fa-envelope"></i>hatfieldjamemasjid@yahoo.com
-												</a>
-											</li>
-										</ul>
-
-										<ul class="widget_social_icon">
-											<li><a class="hvr-ripple-out" href="https://www.facebook.com/hatfieldjamemasjid"><i class="fa fa-facebook"></i></a></li>
-											<!-- <li><a class="hvr-ripple-out" href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-tumblr"></i></a></li>
-											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-vimeo"></i></a></li>
-											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-vimeo"></i></a></li>
-											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-camera-retro"></i></a></li> -->
-										</ul>
-
-									</div>
-								</div>
-								<!-- <div class="col-md-4">
-									<div class="widget_event">
-										<h4 class="widget_title">Latest Events</h4>
-										<ul class="kode_calender_detail">
-											 <li>
-												<div class="kode_calender_list">
-													<span>23 <i>April</i></span>
-													<div class="kode_event_text">
-														<h6><a href="#">Awarness Of Islam EventAt Monday</a></h6>
-														<p>Sunday <span>09 : 45 a.m</span> to <span>9:30 p.m</span></p>
-													</div>
-												</div>
-											</li>
-											<li>
-												<div class="kode_calender_list">
-													<span>23 <i>April</i></span>
-													<div class="kode_event_text">
-														<h6><a href="#">Awarness Of Islam EventAt Monday</a></h6>
-														<p>Sunday <span>09 : 45 a.m</span> to <span>9:30 p.m</span></p>
-													</div>
-												</div>
-											</li>
-											<li>
-												<div class="kode_calender_list">
-													<span>23 <i>April</i></span>
-													<div class="kode_event_text">
-														<h6><a href="#">Awarness Of Islam EventAt Monday</a></h6>
-														<p>Sunday <span>09 : 45 a.m</span> to <span>9:30 p.m</span></p>
-													</div>
-												</div>
-											</li> 
-										</ul>
-									</div>
-								</div> -->
-								<!-- <div class="col-md-4">
-									<div class="widget_event">
-										<h4 class="widget_title">Get In Touch</h4>
-										<form method="post" class="comment-form">
-											<div class="kode-left-comment-sec">
-												<div class="kf_commet_field">
-													<input placeholder="Your Name" name="author" type="text" value="" data-default="Name*" size="30" required>
-												</div>
-												<div class="kf_commet_field">
-													<input placeholder="Your Email" name="email" type="text" value="" data-default="Email*" size="30" required>
-												</div>
-											</div>
-											<div class="kode_textarea">
-												<textarea placeholder="Your Message" name="comment"></textarea>
-											</div>
-											<button name="submit" type="submit" class="medium_btn bg_transparent border btn_hover">Submit Now</button>
-										</form>
-									</div>
-								</div> -->
-							</div>
-						</div>
-						<!--CONTAINER END-->
-					</div>
-					<!--WIDGET WRAP END-->
-					
-					<div class="widget_copyright">
-						<div class="container">
-							<div class="copyright_text">
-								<p>Copyright© 2021. All Rights Reserved <a href="#">HatfieldJameMasjid.org</a></p>
-								<a id="child-topbtn" class="top_btn hvr-wobble-vertical" href="#"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</footer>
-				
 			</div>
-			<!--WRAPER END-->
-			<!--JavaScript-->
-			<script src="js/jquery.js"></script>
-			<!--BOOTSTRAP JavaScript-->
-			<script src="js/bootstrap.js"></script>
-			<!--BOOTSTRAP JavaScript-->
-			<script src="js/slick.min.js"></script>
-			<!--js/jquery.downCount.js start-->
-			<script src="js/wow.min.js"></script>
-			<!--BOOTSTRAP JavaScript-->
-			<script src="js/jquery.bxslider.min.js"></script>
-			<!--BOOTSTRAP JavaScript-->
-			<script src="js/jQuery-plugin-progressbar.js"></script>
-			<!--BOOTSTRAP JavaScript-->
-			<script src="js/chosen.jquery.min.js"></script>
-			<!--js/jquery.downCount.js start-->
-			<script src="js/modernizr.custom.js"></script>
-			<!--js/jquery.downCount.js start-->
-			<script src="js/jquery.dlmenu.js"></script>
-			<!--BOOTSTRAP JavaScript-->
-			<script src="js/musicplayer.js"></script>
-			<!--BOOTSTRAP JavaScript-->
-			<script src="js/jquery.prettyphoto.js"></script>
-			<!--js/jquery.downCount.js start-->
-			<script src="js/jquery.downCount.js"></script>
-			<!--BOOTSTRAP JavaScript-->
-			<script src="js/waypoints-min.js"></script>
-			<!--CUSTOM JavaScript-->
-			<script src="js/custom.js"></script>
-		</body>
-	</html>
+
+			<!--KODE TOP LOGO WRAP START-->
+			<div class="kode_top_logo_wrap them_overlay">
+				<div class="container">
+					<div class="top_logo">
+						<h1><a href="#"><img src="images/hatfieldmasjid.png" alt="kodeforest"></a></h1>
+					</div>
+					<div class="top_time_circle">
+						<ul>
+							<li><a href="#">Fajr</a><span>5:45 AM</span></li>
+							<li><a href="#">Dhur</a><span>1:30 PM</span></li>
+							<li><a href="#">Asr</a><span>6:00 PM</span></li>
+							<li><a href="https://www.islamicfinder.org/world/united-states/5192878/hatfield-prayer-times/"
+									target="_blank" rel="noopener noreferrer">Maghrib<span>*Sunset</span></a></li>
+							<li><a href="#">Isha</a><span>9:15 PM</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!--KODE NAVIGATION WRAP START-->
+			<div class="kode_navigation_wrap">
+				<div class="container">
+					<div class="navigation">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="event.html">Events</a></li>
+						</ul>
+						<div id="kode-responsive-navigation" class="dl-menuwrapper">
+							<button class="dl-trigger">Open Menu</button>
+							<ul class="dl-menu">
+								<li class="menu-item kode-parent-menu"><a href="index.html">Home</a></li>
+								<li class="menu-item kode-parent-menu"><a href="event.html">Events</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!--KODE EVENT WRAP START-->
+		<div class="kode_event_wrap">
+			<div class="container">
+				<div class="kode_event_detail">
+					<ul>
+						<li>
+							<div class="event_date">
+								<span>27</span>
+								<p>April - 2017</p>
+							</div>
+							<div class="kode_calender_list">
+								<figure class="them_overlay">
+									<img src="extra-images/event.jpg" alt="">
+								</figure>
+								<div class="kode_event_text">
+									<h4><a href="#">Protest Against Hijab law</a></h4>
+									<p><span>There are many variations of. There are many vari</span>ations of
+										passages...</p>
+									<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a
+											href="#">Adults</a></span>
+								</div>
+							</div>
+							<div class="kode_event_ticket">
+								<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium
+									Singapore</a>
+								<a class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
+							</div>
+						</li>
+
+						<li>
+							<div class="event_date">
+								<span>27</span>
+								<p>April - 2017</p>
+							</div>
+							<div class="kode_calender_list">
+								<figure class="them_overlay">
+									<img src="extra-images/event.jpg" alt="">
+								</figure>
+								<div class="kode_event_text">
+									<h4><a href="#">Protest Against Hijab law</a></h4>
+									<p><span>There are many variations of. There are many vari</span>ations of
+										passages...</p>
+									<span><i class="fa fa-tags"></i><a href="#">Families ,</a><a href="#">Young ,</a><a
+											href="#">Adults</a></span>
+								</div>
+							</div>
+							<div class="kode_event_ticket">
+								<a class="event_studium" href="#"><i class="fa fa-map-marker"></i>Indoor Stadium
+									Singapore</a>
+								<a class="medium_btn background-bg-dark" href="#">Buy Ticket</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<!--KODE PAGINATION LIST START-->
+				<!-- <div class="kode_pagination_list navi_2">
+						<ul class="kode_pagination">
+							<li><a class="prve" href="#"><i class="fa fa-arrow-left"></i>Previous</a></li>
+							<li><a href="#">1</a></li>
+							<li><a class="next" href="#">Next<i class="fa fa-arrow-right"></i></a></li>
+						</ul>
+					</div> -->
+				<!--KODE PAGINATION LIST END-->
+			</div>
+		</div>
+
+		<!--KODE NEWSLETTER WRAP START-->
+		<!-- <div class="kode_newsletter_wrap"> -->
+		<!-- <div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="kode_newsletter_des">
+								<span><i class="fa fa-envelope"></i></span>
+								<div class="kode_newsletter_text">
+									<h5><a href="#">Newsletter Sign Up</a></h5>
+									<p>For Latest Updates & For Majalis</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="kode_newsletter_form">
+								<form>
+									<div class="kf_commet_field">
+										<input placeholder="Enter Your Email" name="url" type="text" value="" data-default="Website" size="30" required>
+										<button class="medium_btn background-bg-dark">Submit</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+	</div>
+</body>
+
+<footer>
+	<div class="widget_wrap them_overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="widget_logo">
+
+						<a href="#"><img src="images/footer-logo.png" alt=""></a>
+						<p>There are many variations of passages of Lorem Ipsum availableThere are many
+							variations of passages of Lorem Ipsum available...</p>
+						<ul class="widget_call_info">
+							<li>
+								<a href="https://goo.gl/maps/q5XquduhZFy7GTt96" target="_blank"
+									rel="noopener noreferrer">
+									<i class="fa fa-map-marker"></i>1511 Cowpath Rd, Hatfield, PA 19440
+								</a>
+							</li>
+							<li>
+								<a href="tel:+1215-362-5771">
+									<i class="fa fa-phone"></i>+1 215 362 5771
+								</a>
+							</li>
+							<li>
+								<a href="mailto: hatfieldjamemasjid@yahoo.com">
+									<i class="fa fa-envelope"></i>hatfieldjamemasjid@yahoo.com
+								</a>
+							</li>
+						</ul>
+
+						<ul class="widget_social_icon">
+							<li>
+								<a class="hvr-ripple-out" href="https://www.facebook.com/hatfieldjamemasjid"><i
+										class="fa fa-facebook"></i></a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="widget_copyright">
+		<div class="container">
+			<div class="copyright_text">
+				<p>Copyright© 2021. All Rights Reserved <a href="#">HatfieldJameMasjid.org</a></p>
+				<a id="child-topbtn" class="top_btn hvr-wobble-vertical" href="#"><i class="fa fa-long-arrow-up"
+						aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!--JavaScript-->
+<script src="js/jquery.js"></script>
+<!--BOOTSTRAP JavaScript-->
+<script src="js/bootstrap.js"></script>
+<!--BOOTSTRAP JavaScript-->
+<script src="js/slick.min.js"></script>
+<!--js/jquery.downCount.js start-->
+<script src="js/wow.min.js"></script>
+<!--BOOTSTRAP JavaScript-->
+<script src="js/jquery.bxslider.min.js"></script>
+<!--BOOTSTRAP JavaScript-->
+<script src="js/jQuery-plugin-progressbar.js"></script>
+<!--BOOTSTRAP JavaScript-->
+<script src="js/chosen.jquery.min.js"></script>
+<!--js/jquery.downCount.js start-->
+<script src="js/modernizr.custom.js"></script>
+<!--js/jquery.downCount.js start-->
+<script src="js/jquery.dlmenu.js"></script>
+<!--BOOTSTRAP JavaScript-->
+<script src="js/musicplayer.js"></script>
+<!--BOOTSTRAP JavaScript-->
+<script src="js/jquery.prettyphoto.js"></script>
+<!--js/jquery.downCount.js start-->
+<script src="js/jquery.downCount.js"></script>
+<!--BOOTSTRAP JavaScript-->
+<script src="js/waypoints-min.js"></script>
+<!--CUSTOM JavaScript-->
+<script src="js/custom.js"></script>
+
+</html>
