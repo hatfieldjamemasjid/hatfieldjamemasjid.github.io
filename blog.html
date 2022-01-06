@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>BLOG PAGE</title>
+			<!--BOOTSTRAP CSS-->
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<!--fontawseme CSS-->
+			<link href="css/font-awesome.css" rel="stylesheet">
+			<!--fontawseme CSS-->
+			<link href="css/prettyphoto.css" rel="stylesheet">
+			<!--fontawseme CSS-->
+			<link href="css/chosen.min.css" rel="stylesheet">
+			<!--fontawseme CSS-->
+			<link href="css/demo-page.css" rel="stylesheet">
+			<!--fontawseme CSS-->
+			<link href="css/hover.css" rel="stylesheet">
+			<!--fontawseme CSS-->
+			<link href="css/component.css" rel="stylesheet">
+			<!--THEME TYPO CSS-->
+			<link href="css/typography.css" rel="stylesheet">
+			<!--THEME TYPO CSS-->
+			<link href="css/shotcode.css" rel="stylesheet">
+			<!--THEME TYPO CSS-->
+			<link rel="stylesheet" href="style.css">
+			<!--svg-icon CSS-->
+			<link rel="stylesheet" href="svg-icon.css">
+			<!--COLOR CSS-->
+			<link rel="stylesheet" href="css/color.css">
+			<!--COLOR CSS-->
+			<link rel="stylesheet" href="css/responsive.css">
+		</head>
+		<body>
+			<!--WRAPER START-->
+			<div class="wraper">
+				<header class="header">
+					<!--KODE TOP2 WRAP START-->
+					<div class="kode_top2_wrap">
+						<!--CONTAINER START-->
+						<div class="container">
+							<!--KODE TOP2 ROW START-->
+							<div class="kode_top2_row">
+								<!--KODE TOP2 INFO START-->
+								<div class="kode_top2_info">
+									<ul>
+										<li>
+											<span><i class="fa fa-envelope"></i>Email Address</span>
+											<a href="#">contact@infomosque.com</a>
+										</li>
+										<li>
+											<span><i class="fa icon-technology"></i>Contact No</span>
+											<a href="#">+92 - 334 - 2797084</a>
+										</li>
+										<li>
+											<span><i class="fa fa-calendar"></i>Opening Timings</span>
+											<a href="#">Mon - Sat  11:00 A.M - 09:00 P.M</a>
+										</li>
+									</ul>
+								</div>
+								<!--KODE TOP2 INFO END-->
+								
+								<!--KODE TOP2 ICON START-->
+								<div class="kode_top2_icon">
+									<ul>
+										<li><a href="#"><i class="fa icon-commerce"></i><span>2</span></a></li>
+										<li>
+											<div class="kode_search_overlay">
+												<div class="cp-search-holder">
+													<button type="button" id="trigger-overlay"><i aria-hidden="true" class="fa fa-search"></i></button>
+												</div>
+												
+												<div id="overlay" class="overlay overlay-contentscale">
+												 <button class="overlay-close" type="button">Close</button>
+												 <!--Search Bar Inner Start-->
+												 <div class="cp-search-inner">
+												  <form class="kode-search kode_search-form" method="get" id="searchform">
+												   <input type="text" name="s" id="s" autocomplete="off" data-default="" />
+												   <button class="submit" type="submit"><i class="fa fa-search"></i></button>
+												  </form>
+												 </div>
+												 <!--Search Bar Inner End--> 
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="dropdown">
+												<div id="dLabel" data-toggle="dropdown">
+													<img src="images/drop-img.png" alt="">Eng
+													<span class="fa fa-angle-down"></span>
+												</div>
+												<ul class="dropdown-menu">
+													<li><a href="#"><img src="images/drop-img.png" alt="">Eng</a></li>
+													<li><a href="#"><img src="images/drop-img.png" alt="">urdu</a></li>
+													<li><a href="#"><img src="images/drop-img.png" alt="">arabic</a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+									<div class="donate_btn">
+										<!-- Button trigger modal -->
+										<div class="medium_btn theme_color_bg btn_hover2" data-toggle="modal" data-target="#myModal">
+											Donate Us
+										</div>
+										<!-- Modal -->
+										<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<div class="modal-body">
+														<!--KODE DONATE DES START-->
+														<div class="kode_donate_des">
+															<div class="kode_doantion_amount">
+																<h4>Donate Now</h4>
+																<div class="kode_amount_list">
+																	<span>$10</span>
+																	<span>$25</span>
+																	<span>$50</span>
+																	<span>$30</span>
+																</div>
+																<div class="kf_commet_field">
+																	<input placeholder="Other Amount" name="email" type="text" value="" data-default="Email*" size="30" required>
+																</div>
+															</div>
+															<!--KODE DONATION ROW START-->
+															<div class="kode_donation_row">
+																<h4>Billing Information</h4>
+																<!--kode AUTHOR WRAP COMMENTS FORM START -->
+																<form method="post" class="kode_comment">
+																	<div class="row">
+																		<div class="col-md-6">
+																			<div class="kf_commet_field">
+																				<input placeholder="Enter Name" name="author" type="text" value="" data-default="Name*" size="30" required>
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="kf_commet_field">
+																				<input placeholder="Your Email" name="author" type="text" value="" data-default="Name*" size="30" required>
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="kf_commet_field">
+																				<input placeholder="Your Address" name="author" type="text" value="" data-default="Name*" size="30" required>
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="kode_donation_item">
+																				<select class="chosen-select">
+																				  <option value="Select Course Name">Your Country</option>
+																				  <option value="saab">Afghanistan</option>
+																				  <option value="mercedes">Albania</option>
+																				  <option value="audi">Algeria</option>
+																				  <option value="mercedes">Albania</option>
+																				  <option value="audi">Algeria</option>
+																				</select> 
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="kode_donation_item">
+																				<select class="chosen-select">
+																				  <option value="Select Course Name">Your City</option>
+																				  <option value="saab">Karachi</option>
+																				  <option value="mercedes">Rawalpindi</option>
+																				  <option value="audi">Punjab</option>
+																				  <option value="mercedes">Faisalabad</option>
+																				  <option value="audi">Sindh</option>
+																				</select> 
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="kf_commet_field">
+																				<input placeholder="Your Mobile" name="author" type="text" value="" data-default="Name*" size="30" required>
+																			</div>
+																		</div>
+																		<div class="col-md-12">
+																			<div class="kode_payment_list">
+																				<h5>Choose Your Payment Method</h5>
+																				<ul class="radio_points">
+																					<li>
+																						<div class="checkbox_radio">
+																							<input type="radio" name="one" id="radio1">
+																							<span></span>
+																							<label for="radio1">Pay Pal</label>
+																						</div>
+																					</li>
+																					<li>
+																						<div class="checkbox_radio">
+																							<input type="radio" name="one" id="radio2">
+																							<span></span>
+																							<label for="radio2">Stripe</label>
+																						</div>
+																					</li>
+																					<li>
+																						<div class="checkbox_radio">
+																							<input type="radio" name="one" id="radio3">
+																							<span></span>
+																							<label for="radio3">Credit Card</label>
+																						</div>
+																					</li>
+																					<li>
+																						<div class="checkbox_radio">
+																							<input type="radio" name="one" id="radio4">
+																							<span></span>
+																							<label for="radio4">Other Source</label>
+																						</div>
+																					</li>
+																				</ul>
+																				<p class="form-submit"><button class="medium_btn theme_color_bg">Donate Now</button></p>
+																			</div>
+																		</div>
+																	</div>
+																</form>
+																<!--kode AUTHOR WRAP COMMENTS FORM END -->	
+															</div>
+															<!--KODE DONATION ROW END-->
+														</div>
+														<!--KODE DONATE DES END-->
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--KODE TOP2 ICON END-->
+							</div>
+							<!--KODE TOP2 ROW END-->
+						</div>
+						<!--CONTAINER END-->
+					</div>
+					<!--KODE TOP2 WRAP END-->
+					
+					<!--KODE NAVIGATION WRAP START-->
+					<div class="kode_navigation_wrap">
+						<!--CONTAINER START-->
+						<div class="container">
+							<div class="top_logo">
+								<h1><a href="#"><img src="images/top-logo2.png" alt="kodeforest"></a></h1>
+							</div>
+							<div class="navigation">
+								<ul>
+									<li><a href="#">Home</a>
+										<ul class="kode">
+											<li><a href="index.html">DEFULT HOME</a></li>
+											<li><a href="index-1.html">Home page 02</a></li>
+										</ul>
+									</li>
+									<li><a href="about-us.html">About Us</a></li>
+									<li><a href="#">Services</a>
+										<ul class="kode">
+											<li><a href="service.html">service</a></li>
+											<li><a href="service-01.html">service 01</a></li>
+											<li><a href="service02.html">service 02</a></li>
+											<li><a href="service-detail.html">service detail</a></li>
+											<li><a href="service-sidebar.html">service sidebar</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Projects</a>
+										<ul class="kode">
+											<li><a href="project.html">project</a></li>
+											<li><a href="project-01.html">project 01</a></li>
+											<li><a href="project-list.html">project list</a></li>
+											<li><a href="project-detail.html">project detail</a></li>
+										</ul>
+									</li>
+									<li><a href="#">blog</a>
+										<ul class="kode">
+											<li><a href="blog.html">blog</a></li>
+											<li><a href="blog01.html">blog 01</a></li>
+											<li><a href="blog-detail.html">blog detail</a></li>
+											<li><a href="blog-sidebar.html">blog sidebar</a></li>
+										</ul>
+									</li>
+									<li><a href="#">portfolio</a>
+										<ul class="kode">
+											<li><a href="portfolio.html">portfolio</a></li>
+											<li><a href="portfolio-01.html">portfolio 01</a></li>
+											<li><a href="portfolio-02.html">portfolio 02</a></li>
+											<li><a href="portfolio-detail.html">portfolio detail</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Pages</a>
+										<ul class="kode">
+											<li><a href="event.html">event</a></li>
+											<li><a href="404.html">404 page</a></li>
+											<li><a href="shop.html">shop page</a></li>
+											<li><a href="coming-soon.html">coming soon</a></li>
+											<li><a href="event-detail.html">event detail</a></li>
+											<li><a href="event-sidebar.html">event sidebar</a></li>
+											<li><a href="team-detail.html">team detail</a></li>
+										</ul>
+									</li>
+									<li><a href="contact-us.html">Contact</a></li>
+								</ul>
+								<!--DL Menu Start-->
+								<div id="kode-responsive-navigation" class="dl-menuwrapper">
+									<button class="dl-trigger">Open Menu</button>
+									<ul class="dl-menu">
+										<li><a class="active" href="#">Home</a>
+											<ul class="dl-submenu">
+												<li><a href="index.html">DEFULT HOME</a></li>
+												<li><a href="index-1.html">Home page 02</a></li>
+											</ul>
+										</li>
+										<li class="menu-item kode-parent-menu"><a href="about-us.html">About Us</a></li>
+										<li class="menu-item kode-parent-menu"><a href="#">Services</a>
+											<ul class="dl-submenu">
+												<li><a href="service.html">service</a></li>
+												<li><a href="service-01.html">service 01</a></li>
+												<li><a href="service02.html">service 02</a></li>
+												<li><a href="service-detail.html">service detail</a></li>
+												<li><a href="service-sidebar.html">service sidebar</a></li>
+											</ul>
+										</li>
+										<li class="menu-item kode-parent-menu"><a href="#">Projects</a>
+											<ul class="dl-submenu">
+												<li><a href="project.html">project</a></li>
+												<li><a href="project-01.html">project 01</a></li>
+												<li><a href="project-list.html">project list</a></li>
+												<li><a href="project-detail.html">project detail</a></li>
+											</ul>
+										</li>
+										<li class="menu-item kode-parent-menu"><a href="#">blog</a>
+											<ul class="dl-submenu">
+												<li><a href="blog.html">blog</a></li>
+												<li><a href="blog01.html">blog 01</a></li>
+												<li><a href="blog-detail.html">blog detail</a></li>
+												<li><a href="blog-sidebar.html">blog sidebar</a></li>
+											</ul>
+										</li>
+										<li class="menu-item kode-parent-menu"><a href="#">portfolio</a>
+											<ul class="dl-submenu">
+												<li><a href="portfolio.html">portfolio</a></li>
+												<li><a href="portfolio-01.html">portfolio 01</a></li>
+												<li><a href="portfolio-02.html">portfolio 02</a></li>
+												<li><a href="portfolio-detail.html">portfolio detail</a></li>
+											</ul>
+										</li>
+										<li class="menu-item kode-parent-menu"><a href="#">Pages</a>
+											<ul class="dl-submenu">
+												<li><a href="event.html">event</a></li>
+												<li><a href="404.html">404 page</a></li>
+												<li><a href="shop.html">shop page</a></li>
+												<li><a href="coming-soon.html">coming soon</a></li>
+												<li><a href="event-detail.html">event detail</a></li>
+												<li><a href="event-sidebar.html">event sidebar</a></li>
+												<li><a href="team-detail.html">team detail</a></li>
+											</ul>
+										</li>
+										<li><a href="contact-us.html">contact Us</a></li>
+									</ul>
+								</div>
+								<!--DL Menu END-->
+							</div>
+							<div class="kode_navi_icon">
+								<ul>
+									<li><a class="hvr-ripple-out" href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="hvr-ripple-out" href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a class="hvr-ripple-out" href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<!--CONTAINER END-->
+					</div>
+					<!--KODE NAVIGATION2 WRAP END-->
+				</header>
+				
+				<!--KODE SAB BANNER WRAP START-->
+				<div class="kode_sab_banner_wrap them_overlay">
+					<!--CONTAINER START-->
+					<div class="container">
+						<div class="sab_banner_text">
+							<h2>Blog List</h2>
+							<ul class="breadcrumbs">
+								<li><a href=""><i class="fa fa-home"></i></a></li>
+								<li><strong>Blog List</strong></li>
+							</ul>
+						</div>
+					</div>
+					<!--CONTAINER END-->
+				</div>
+				<!--KODE SAB BANNER WRAP END-->
+				
+				<!--KODE BLOG MADIUM WRAP START-->
+				<div class="kode_blog_madium_wrap">
+					<!--CONTAINER START-->
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="kode_blog_des">
+									<figure class="them_overlay">
+										<img src="extra-images/blog01.jpg" alt="">
+										<a data-rel="prettyPhoto" class="expand_btn btn_hover2" href="extra-images/blog01.jpg"><i class="fa fa-expand"></i></a>
+									</figure>
+									<div class="kode_blog_text">
+										<h4><a href="#"><span>Eid Celebration At Our Madrasa</span> In Eid Event</a></h4>
+										<ul class="kode_meta meta_2">
+											<li><a href="#"><i class="fa fa-clock-o"></i>April 11 , 2017</a></li>
+											<li><a href="#"><i class="fa fa-user"></i>By Admin</a></li>
+										</ul>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+										<a class="medium_btn background-bg-dark btn_hover hvr-wobble-bottom" href="#">See More</a>
+										<a class="share_link hvr-ripple-out" href="#"><i class="fa fa-share-alt"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="kode_blog_des">
+									<figure class="them_overlay">
+										<img src="extra-images/blog02.jpg" alt="">
+										<a data-rel="prettyPhoto" class="expand_btn btn_hover2" href="extra-images/blog02.jpg"><i class="fa fa-expand"></i></a>
+									</figure>
+									<div class="kode_blog_text">
+										<h4><a href="#"><span>Eid Celebration At Our Madrasa</span> In Eid Event</a></h4>
+										<ul class="kode_meta meta_2">
+											<li><a href="#"><i class="fa fa-clock-o"></i>April 11 , 2017</a></li>
+											<li><a href="#"><i class="fa fa-user"></i>By Admin</a></li>
+										</ul>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+										<a class="medium_btn background-bg-dark btn_hover hvr-wobble-bottom" href="#">See More</a>
+										<a class="share_link hvr-ripple-out" href="#"><i class="fa fa-share-alt"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="kode_blog_des">
+									<figure class="them_overlay">
+										<img src="extra-images/blog03.jpg" alt="">
+										<a data-rel="prettyPhoto" class="expand_btn btn_hover2" href="extra-images/blog03.jpg"><i class="fa fa-expand"></i></a>
+									</figure>
+									<div class="kode_blog_text">
+										<h4><a href="#"><span>Eid Celebration At Our Madrasa</span> In Eid Event</a></h4>
+										<ul class="kode_meta meta_2">
+											<li><a href="#"><i class="fa fa-clock-o"></i>April 11 , 2017</a></li>
+											<li><a href="#"><i class="fa fa-user"></i>By Admin</a></li>
+										</ul>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+										<a class="medium_btn background-bg-dark btn_hover hvr-wobble-bottom" href="#">See More</a>
+										<a class="share_link hvr-ripple-out" href="#"><i class="fa fa-share-alt"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="kode_blog_des">
+									<figure class="them_overlay">
+										<img src="extra-images/blog04.jpg" alt="">
+										<a data-rel="prettyPhoto" class="expand_btn btn_hover2" href="extra-images/blog04.jpg"><i class="fa fa-expand"></i></a>
+									</figure>
+									<div class="kode_blog_text">
+										<h4><a href="#"><span>Eid Celebration At Our Madrasa</span> In Eid Event</a></h4>
+										<ul class="kode_meta meta_2">
+											<li><a href="#"><i class="fa fa-clock-o"></i>April 11 , 2017</a></li>
+											<li><a href="#"><i class="fa fa-user"></i>By Admin</a></li>
+										</ul>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+										<a class="medium_btn background-bg-dark btn_hover hvr-wobble-bottom" href="#">See More</a>
+										<a class="share_link hvr-ripple-out" href="#"><i class="fa fa-share-alt"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="kode_blog_des">
+									<figure class="them_overlay">
+										<img src="extra-images/blog05.jpg" alt="">
+										<a data-rel="prettyPhoto" class="expand_btn btn_hover2" href="extra-images/blog05.jpg"><i class="fa fa-expand"></i></a>
+									</figure>
+									<div class="kode_blog_text">
+										<h4><a href="#"><span>Eid Celebration At Our Madrasa</span> In Eid Event</a></h4>
+										<ul class="kode_meta meta_2">
+											<li><a href="#"><i class="fa fa-clock-o"></i>April 11 , 2017</a></li>
+											<li><a href="#"><i class="fa fa-user"></i>By Admin</a></li>
+										</ul>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+										<a class="medium_btn background-bg-dark btn_hover hvr-wobble-bottom" href="#">See More</a>
+										<a class="share_link hvr-ripple-out" href="#"><i class="fa fa-share-alt"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="kode_blog_des">
+									<figure class="them_overlay">
+										<img src="extra-images/blog06.jpg" alt="">
+										<a data-rel="prettyPhoto" class="expand_btn btn_hover2" href="extra-images/blog06.jpg"><i class="fa fa-expand"></i></a>
+									</figure>
+									<div class="kode_blog_text">
+										<h4><a href="#"><span>Eid Celebration At Our Madrasa</span> In Eid Event</a></h4>
+										<ul class="kode_meta meta_2">
+											<li><a href="#"><i class="fa fa-clock-o"></i>April 11 , 2017</a></li>
+											<li><a href="#"><i class="fa fa-user"></i>By Admin</a></li>
+										</ul>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+										<a class="medium_btn background-bg-dark btn_hover hvr-wobble-bottom" href="#">See More</a>
+										<a class="share_link hvr-ripple-out" href="#"><i class="fa fa-share-alt"></i></a>
+									</div>
+								</div>
+							</div>
+							<!--KODE PAGINATION LIST START-->
+							<div class="kode_pagination_list">
+								<ul class="kode_pagination">
+									<li><a class="prve" href="#"><i class="fa fa-arrow-left"></i>Previous</a></li>
+									<li><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a class="next" href="#">Next<i class="fa fa-arrow-right"></i></a></li>
+								</ul>
+							</div>
+							<!--KODE PAGINATION LIST END-->
+						</div>
+					</div>
+					<!--CONTAINER END-->
+				</div>
+				<!--KODE BLOG MADIUM WRAP END-->
+				
+				<!--KODE NEWSLETTER WRAP START-->
+				<div class="kode_newsletter_wrap">
+					<!--CONTAINER START-->	
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="kode_newsletter_des">
+									<span><i class="fa fa-envelope"></i></span>
+									<div class="kode_newsletter_text">
+										<h5><a href="#">Newsletter Sign Up</a></h5>
+										<p>For Latest Updates & For Majalis</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="kode_newsletter_form">
+									<form>
+										<div class="kf_commet_field">
+											<input placeholder="Enter Your Email" name="url" type="text" value="" data-default="Website" size="30" required>
+											<button class="medium_btn background-bg-dark">Submit</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--CONTAINER END-->
+				</div>
+				<!--KODE NEWSLETTER WRAP END-->
+				
+				<footer>
+					<!--WIDGET WRAP START-->
+					<div class="widget_wrap widget_2 them_overlay">
+						<!--CONTAINER START-->
+						<div class="container">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="widget_logo logo_2">
+										<a href="#"><img src="images/footer-logo1.png" alt=""></a>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet massag.</p>
+										<ul class="widget_call_info">
+											<li><a href="#"><i class="fa fa-map-marker"></i>505 North State Street,  Apartment #4, Chicago</a></li>
+											<li><a href="#"><i class="fa fa-phone"></i>+92 - 334 - 2797084</a></li>
+											<li><a href="#"><i class="fa fa-envelope"></i>support@islamicmadrasa.com</a></li>
+										</ul>
+										<ul class="widget_social_icon">
+											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-tumblr"></i></a></li>
+											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-vimeo"></i></a></li>
+											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-vimeo"></i></a></li>
+											<li><a class="hvr-ripple-out" href="#"><i class="fa fa-camera-retro"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="widget_event event_2">
+										<h4 class="widget_title">Quick Message</h4>
+										<form method="post" id="commentform" class="comment-form">
+											<div class="kode-left-comment-sec">
+												<div class="kf_commet_field">
+													<input placeholder="Enter Your Name" name="author" type="text" value="" data-default="Name*" size="30" required>
+												</div>
+												<div class="kf_commet_field">
+													<input placeholder="Your Email" name="email" type="text" value="" data-default="Email*" size="30" required>
+												</div>
+											</div>
+											<div class="kode_textarea">
+												<textarea placeholder="Your Message" name="comment"></textarea>
+											</div>
+											<button class="medium_btn theme_color_bg">Submit Now</button>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="widget_event event_2">
+										<h4 class="widget_title">Latest Events</h4>
+										<ul class="kode_calender_detail">
+											<li>
+												<div class="kode_calender_list">
+													<span>23 <i>April</i></span>
+													<div class="kode_event_text">
+														<h6><a href="#">Awarness Of Islam EventAt Monday</a></h6>
+														<p>Sunday <span>09 : 45 a.m</span> to <span>9:30 p.m</span></p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="kode_calender_list">
+													<span>23 <i>April</i></span>
+													<div class="kode_event_text">
+														<h6><a href="#">Awarness Of Islam EventAt Monday</a></h6>
+														<p>Sunday <span>09 : 45 a.m</span> to <span>9:30 p.m</span></p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="kode_calender_list">
+													<span>23 <i>April</i></span>
+													<div class="kode_event_text">
+														<h6><a href="#">Awarness Of Islam EventAt Monday</a></h6>
+														<p>Sunday <span>09 : 45 a.m</span> to <span>9:30 p.m</span></p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--CONTAINER END-->
+					</div>
+					<!--WIDGET WRAP END-->
+					
+					<!--WIDGET COPYRIGHT START-->
+					<div class="widget_copyright">
+						<!--CONTAINER START-->
+						<div class="container">
+							<div class="copyright_text">
+								<p>Copyright© 2017. All Rights <a href="#">Reserved kodeforest.com</a></p>
+								<a id="child-topbtn" class="top_btn hvr-bob" href="#"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<!--CONTAINER END-->
+					</div>
+					<!--WIDGET COPYRIGHT END-->
+				</footer>
+			</div>
+			<!--WRAPER END-->
+			<!--JavaScript-->
+			<script src="js/jquery.js"></script>
+			<!--BOOTSTRAP JavaScript-->
+			<script src="js/bootstrap.js"></script>
+			<!--BOOTSTRAP JavaScript-->
+			<script src="js/jquery.bxslider.min.js"></script>
+			<!--BOOTSTRAP JavaScript-->
+			<script src="js/chosen.jquery.min.js"></script>
+			<!--BOOTSTRAP JavaScript-->
+			<script src="js/jquery.prettyphoto.js"></script>
+			<!--BOOTSTRAP JavaScript-->
+			<script src="js/waypoints-min.js"></script>
+			<!--js/jquery.downCount.js start-->
+			<script src="js/modernizr.custom.js"></script>
+			<!--js/jquery.downCount.js start-->
+			<script src="js/jquery.dlmenu.js"></script>
+			<!--CUSTOM JavaScript-->
+			<script src="js/custom.js"></script>
+			<!--BOOTSTRAP JavaScript-->
+			<script src="js/search-script.js"></script>
+		</body>
+	</html>
